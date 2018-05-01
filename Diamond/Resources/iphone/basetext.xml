@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<Language>
+<Item id="10000" dsp="重玩" />
+<Item id="10001" dsp="退出" />
+<Item id="10002" dsp="继续" />
+<Item id="10003" dsp="今天可获取%d金币" />
+<Item id="10004" dsp="分数：" />
+</Language>

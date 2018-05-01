@@ -1,0 +1,31 @@
+SOURCE :=  \
+ConfigConst.cpp \
+ConfigCopy.cpp \
+ConfigCopyProp.cpp \
+ConfigCopySkill.cpp \
+ConfigCopyWave.cpp \
+ConfigMap.cpp \
+ConfigMonster.cpp \
+ConfigMonsterSkill.cpp \
+ConfigProp.cpp \
+ConfigSpriteSkill.cpp \
+ConfigSpriteSkillStatus.cpp \
+ConfigStatusType.cpp \
+ConfigStore.cpp \
+ConfigText.cpp \
+ConfigWaveMonster.cpp \
+CopyData.cpp \
+DataPool.cpp \
+EffectData.cpp \
+LoadHelper.cpp \
+MapData.cpp \
+MapDataManager.cpp \
+MonsterData.cpp \
+MonsterDataManager.cpp \
+PropData.cpp \
+SceneStatusData.cpp \
+SpriteSkillData.cpp \
+SpriteSkillManager.cpp \
+StatusData.cpp \
+StoreData.cpp \
+UserData.cpp

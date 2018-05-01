@@ -1,0 +1,24 @@
+﻿生成启动时间为 2013/8/22 9:52:14。
+     1>项目“E:\0821出版本\trunk\CocosDenshion\proj.win32\CocosDenshion.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release.win32\libCocosDenshion.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release.win32\libCocosDenshion.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /I..\Include /I"E:\0821出版本\trunk\CocosDenshion\proj.win32\..\..\cocos2dx" /I"E:\0821出版本\trunk\CocosDenshion\proj.win32\..\..\cocos2dx\include" /I"E:\0821出版本\trunk\CocosDenshion\proj.win32\..\..\cocos2dx\kazmath\include" /I"E:\0821出版本\trunk\CocosDenshion\proj.win32\..\..\cocos2dx\platform\win32" /I"E:\0821出版本\trunk\CocosDenshion\proj.win32\..\..\cocos2dx\platform\third_party\win32\OGLES" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D COCOSDENSHIONWIN32_EXPORTS /D _EXPORT_DLL_ /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc110.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\win32\MciPlayer.cpp ..\win32\SimpleAudioEngine.cpp
+         MciPlayer.cpp
+         SimpleAudioEngine.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\0821出版本\trunk\Release.win32\libCocosDenshion.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\0821出版本\trunk\Release.win32\\" winmm.lib libcocos2d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\0821出版本\trunk\Release.win32\libCocosDenshion.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\0821出版本\trunk\Release.win32\libCocosDenshion.lib" /MACHINE:X86 /SAFESEH /DLL Release.win32\MciPlayer.obj
+         Release.win32\SimpleAudioEngine.obj
+            正在创建库 E:\0821出版本\trunk\Release.win32\libCocosDenshion.lib 和对象 E:\0821出版本\trunk\Release.win32\libCocosDenshion.exp
+         CocosDenshion.vcxproj -> E:\0821出版本\trunk\Release.win32\libCocosDenshion.dll
+       FinalizeBuildStatus:
+         正在删除文件“Release.win32\libCocosDenshion.unsuccessfulbuild”。
+         正在对“Release.win32\libCocosDenshion.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\0821出版本\trunk\CocosDenshion\proj.win32\CocosDenshion.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.92

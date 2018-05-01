@@ -1,0 +1,121 @@
+﻿生成启动时间为 2013/9/11 9:24:00。
+     1>项目“E:\0821出版本\trunk\Diamond\proj.win32\Diamond.win32.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release.win32\Diamond.win32.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /I. /I..\Classes /I"E:\0821出版本\trunk\cocos2dx" /I"E:\0821出版本\trunk\cocos2dx\include" /I"E:\0821出版本\trunk\cocos2dx\kazmath\include" /I"E:\0821出版本\trunk\cocos2dx\platform\win32" /I"E:\0821出版本\trunk\cocos2dx\platform\third_party\win32" /I"E:\0821出版本\trunk\cocos2dx\platform\third_party\win32\OGLES" /I"E:\0821出版本\trunk\extensions" /I"E:\0821出版本\trunk\CocosDenshion\include" /I..\Classes\ui\layer /I..\Classes\ui\sprite /I..\Classes\ui\scene /I..\Classes\base /I..\Classes\datapool /I..\Classes\platform /I..\Classes\tinyxml /I..\Classes\ui\action /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGSNDEBUG /D _UNICODE /D UNICODE /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\base\game_win_event.cpp ..\Classes\datapool\ConfigCopyWave.cpp ..\Classes\datapool\CopyData.cpp ..\Classes\datapool\DataPool.cpp ..\Classes\datapool\LoadHelper.cpp ..\Classes\datapool\MapData.cpp ..\Classes\datapool\MapDataManager.cpp ..\Classes\datapool\MonsterDataManager.cpp ..\Classes\datapool\PropData.cpp ..\Classes\datapool\SpriteSkillData.cpp ..\Classes\datapool\SpriteSkillManager.cpp ..\Classes\datapool\StoreData.cpp ..\Classes\datapool\UserData.cpp ..\Classes\platform\OfficialPlatformCenter.cpp ..\Classes\sound\SoundManager.cpp ..\Classes\ui\layer\androidDelegate.cpp ..\Classes\ui\layer\BeginnersGuideLayer.cpp ..\Classes\ui\layer\BoardLayer.cpp ..\Classes\ui\layer\BuyPropLayer.cpp ..\Classes\ui\layer\CopyLayer.cpp ..\Classes\ui\layer\DailyRewordLayer.cpp ..\Classes\ui\layer\EffectLayer.cpp ..\Classes\ui\layer\FreeGoldLayer.cpp ..\Classes\ui\layer\LoseLayer.cpp ..\Classes\ui\layer\MapLayer.cpp ..\Classes\ui\layer\MenuLayer.cpp ..\Classes\ui\layer\MonsterLayer.cpp ..\Classes\ui\layer\MusicLayer.cpp ..\Classes\ui\layer\PropLayer.cpp ..\Classes\ui\layer\SkillLayer.cpp ..\Classes\ui\layer\StoreLayer.cpp ..\Classes\ui\layer\WinLayer.cpp ..\Classes\ui\scene\FightScene.cpp ..\Classes\ui\scene\LoginScene.cpp ..\Classes\ui\scene\MainScene.cpp ..\Classes\ui\sprite\CopyGridViewCell.cpp ..\Classes\ui\sprite\GemCellEx.cpp ..\Classes\ui\sprite\PropButton.cpp ..\Classes\ui\sprite\MapTableViewCell.cpp ..\Classes\ui\sprite\MonsterNode.cpp ..\Classes\ui\sprite\StoreChildSprite.cpp ..\Classes\ui\sprite\StoreTableViewCell.cpp
+         AppDelegate.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\AppDelegate.cpp(9): fatal error C1083: 无法打开包括文件:“SoundManager.h”: No such file or directory
+         game_win_event.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         ConfigCopyWave.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         CopyData.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         DataPool.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         LoadHelper.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         MapData.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         MapDataManager.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         MonsterDataManager.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         PropData.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         SpriteSkillData.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         SpriteSkillManager.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         StoreData.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         UserData.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         OfficialPlatformCenter.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\androidDelegate.h(5): fatal error C1083: 无法打开包括文件:“CCKeypadDelegate.h”: No such file or directory
+         SoundManager.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         androidDelegate.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\androidDelegate.h(5): fatal error C1083: 无法打开包括文件:“CCKeypadDelegate.h”: No such file or directory
+         BeginnersGuideLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\androidDelegate.h(5): fatal error C1083: 无法打开包括文件:“CCKeypadDelegate.h”: No such file or directory
+         BoardLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\BoardLayer.cpp(1183): warning C4305: “参数”: 从“double”到“float”截断
+         BuyPropLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\BuyPropLayer.cpp(99): warning C4018: “>=”: 有符号/无符号不匹配
+         正在生成代码...
+         正在编译...
+         CopyLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\CopyLayer.cpp(191): warning C4018: “>=”: 有符号/无符号不匹配
+         DailyRewordLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         EffectLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\EffectLayer.cpp(5): fatal error C1083: 无法打开包括文件:“SoundManager.h”: No such file or directory
+         FreeGoldLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         LoseLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\LoseLayer.cpp(2): fatal error C1083: 无法打开包括文件:“SoundManager.h”: No such file or directory
+         MapLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\MapLayer.cpp(78): warning C4018: “<=”: 有符号/无符号不匹配
+         MenuLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         MonsterLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\MonsterLayer.cpp(4): fatal error C1083: 无法打开包括文件:“SoundManager.h”: No such file or directory
+         MusicLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\MusicLayer.cpp(2): fatal error C1083: 无法打开包括文件:“SoundManager.h”: No such file or directory
+         PropLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         SkillLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\SkillLayer.cpp(122): warning C4018: “<”: 有符号/无符号不匹配
+         StoreLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\StoreLayer.cpp(3): fatal error C1083: 无法打开包括文件:“SoundManager.h”: No such file or directory
+         WinLayer.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\WinLayer.cpp(90): warning C4305: “参数”: 从“double”到“float”截断
+         FightScene.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\androidDelegate.h(5): fatal error C1083: 无法打开包括文件:“CCKeypadDelegate.h”: No such file or directory
+         LoginScene.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         MainScene.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\layer\androidDelegate.h(5): fatal error C1083: 无法打开包括文件:“CCKeypadDelegate.h”: No such file or directory
+         CopyGridViewCell.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         GemCellEx.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         PropButton.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\sprite\PropButton.cpp(47): warning C4305: “参数”: 从“double”到“float”截断
+         MapTableViewCell.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         正在生成代码...
+         正在编译...
+         MonsterNode.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+     1>..\Classes\ui\sprite\MonsterNode.cpp(3): fatal error C1083: 无法打开包括文件:“SoundManager.h”: No such file or directory
+         StoreChildSprite.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         StoreTableViewCell.cpp
+     1>C:\Program Files (x86)\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+         正在生成代码...
+     1>已完成生成项目“E:\0821出版本\trunk\Diamond\proj.win32\Diamond.win32.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:01:08.28

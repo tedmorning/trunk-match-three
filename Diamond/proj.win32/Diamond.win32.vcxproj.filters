@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{76f92e5e-4cd2-4daa-8bb7-e32eda94221d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{500c5570-0672-498e-9adf-e7c22683ace0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ui">
+      <UniqueIdentifier>{aa1dfc0f-6f22-4974-996d-eec21af0a343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ui\scene">
+      <UniqueIdentifier>{c6f9e5e0-2170-453b-b840-2fddc8102804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ui\layer">
+      <UniqueIdentifier>{6b571ca0-45ed-42c5-86af-8899a68872ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\datapool">
+      <UniqueIdentifier>{fffb7bcf-5881-446f-bd5a-42ba126f7fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\platform">
+      <UniqueIdentifier>{06f69ee5-e8f4-4db1-851a-0965d62d3ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ui\sprite">
+      <UniqueIdentifier>{9477e44f-2d19-46e0-a966-f070975d5580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\tinyxml">
+      <UniqueIdentifier>{d614735f-ee3f-44d7-b076-96f0e161adb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\base">
+      <UniqueIdentifier>{a945bb78-6564-4d8a-8fc1-5158cc2ae1d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ui\action">
+      <UniqueIdentifier>{c97bb389-f623-46f8-9aba-eb06fdab5ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\datapool\res">
+      <UniqueIdentifier>{102ea0b7-ae7f-49fd-8868-979b57f56e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sound">
+      <UniqueIdentifier>{98bb5419-5b8e-452c-a3d3-a4a0d60d736e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\BaseLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\scene\MainScene.h">
+      <Filter>Classes\ui\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\platform\BasePlatformCenter.h">
+      <Filter>Classes\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\platform\GamePlatform.h">
+      <Filter>Classes\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\platform\OfficialPlatformCenter.h">
+      <Filter>Classes\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\platform\PlatformDefine.h">
+      <Filter>Classes\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\scene\LoginScene.h">
+      <Filter>Classes\ui\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\scene\FightScene.h">
+      <Filter>Classes\ui\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ElementType.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tinyxml\tinystr.h">
+      <Filter>Classes\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tinyxml\tinyxml.h">
+      <Filter>Classes\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\stl_util.h">
+      <Filter>Classes\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\xml_util.h">
+      <Filter>Classes\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\LoadHelper.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\MonsterData.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\MonsterLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\Button.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\CallbackData.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\SkillButton.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\SpriteSkillManager.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\SpriteSkillData.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ActionType.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\StatusData.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\MonsterNode.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\MonsterDataManager.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\SkillLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\EffectData.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\EffectLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\SceneStatusData.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\EnergyLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\TimeLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\TopLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\action\ActionNumTo.h">
+      <Filter>Classes\ui\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\WallLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\HpLabel.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\LoseLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\WinLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\MenuLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\MapLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\MapTableViewCell.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\WaveLabel.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\CopyLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\BoardLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\GemCellEx.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\PropLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\PropData.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\PropButton.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\UserData.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\MapData.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\CopyData.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\MarcoDefine.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\MapDataManager.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\DailyRewordLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\delta_time.h">
+      <Filter>Classes\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigCopy.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigCopyProp.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigCopySkill.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigCopyWave.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigMap.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigMonster.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigMonsterSkill.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigProp.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigSpriteSkill.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigSpriteSkillStatus.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigStatusType.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigText.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigWaveMonster.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\DataPool.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\BuyPropLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\BuyPropItemLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigConst.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\MusicLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sound\SoundManager.h">
+      <Filter>Classes\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\StoreLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\ConfigStore.h">
+      <Filter>Classes\datapool\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\StoreTableViewCell.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\CCTableViewEx.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\CCGridView.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\CopyGridViewCell.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\CopyStar.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\StoreChildSprite.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\datapool\StoreData.h">
+      <Filter>Classes\datapool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\sprite\GainStar.h">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\game_win_event.h">
+      <Filter>Classes\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\WallHpLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\BeginnersGuideLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\ShieldLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\FreeGoldLayer.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\layer\androidDelegate.h">
+      <Filter>Classes\ui\layer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\BaseLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\scene\MainScene.cpp">
+      <Filter>Classes\ui\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\platform\BasePlatformCenter.cpp">
+      <Filter>Classes\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\platform\GamePlatform.cpp">
+      <Filter>Classes\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\platform\OfficialPlatformCenter.cpp">
+      <Filter>Classes\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\scene\LoginScene.cpp">
+      <Filter>Classes\ui\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\scene\FightScene.cpp">
+      <Filter>Classes\ui\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml\tinystr.cpp">
+      <Filter>Classes\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml\tinyxml.cpp">
+      <Filter>Classes\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml\tinyxmlerror.cpp">
+      <Filter>Classes\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml\tinyxmlparser.cpp">
+      <Filter>Classes\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base\xml_util.cpp">
+      <Filter>Classes\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\LoadHelper.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\MonsterData.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\MonsterLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\Button.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\SkillButton.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\SpriteSkillManager.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\SpriteSkillData.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\StatusData.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\MonsterNode.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\MonsterDataManager.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\SkillLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\EffectData.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\EffectLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\SceneStatusData.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\EnergyLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\TimeLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\TopLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\action\ActionNumTo.cpp">
+      <Filter>Classes\ui\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\WallLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\HpLabel.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\LoseLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\WinLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\MenuLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\MapLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\MapTableViewCell.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\WaveLabel.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\CopyLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\BoardLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\GemCellEx.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\PropLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\PropData.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\PropButton.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\UserData.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\MapData.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\CopyData.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\MapDataManager.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\DailyRewordLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base\delta_time.cpp">
+      <Filter>Classes\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigCopy.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigCopyProp.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigCopySkill.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigCopyWave.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigMap.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigMonster.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigMonsterSkill.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigProp.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigSpriteSkill.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigSpriteSkillStatus.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigStatusType.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigText.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigWaveMonster.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\DataPool.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\BuyPropLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\BuyPropItemLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigConst.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\MusicLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sound\SoundManager.cpp">
+      <Filter>Classes\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\StoreLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\ConfigStore.cpp">
+      <Filter>Classes\datapool\res</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\StoreTableViewCell.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\CCTableViewEx.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\CCGridView.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\CopyGridViewCell.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\CopyStar.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\StoreChildSprite.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\datapool\StoreData.cpp">
+      <Filter>Classes\datapool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\sprite\GainStar.cpp">
+      <Filter>Classes\ui\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base\game_win_event.cpp">
+      <Filter>Classes\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\WallHpLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\BeginnersGuideLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\ShieldLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\FreeGoldLayer.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\layer\androidDelegate.cpp">
+      <Filter>Classes\ui\layer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

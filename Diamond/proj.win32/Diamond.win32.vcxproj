@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1A19DD91-2A44-4D22-AB46-1A695B75523F}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)extensions;$(SolutionDir)CocosDenshion\include;..\Classes\ui\layer;..\Classes\ui\sprite;..\Classes\ui\scene;..\Classes\base;..\Classes\datapool;..\Classes\platform;..\Classes\tinyxml;..\Classes\ui\action;..\Classes\sound;C:\Program Files\Java\jdk1.7.0_25\include;C:\Program Files\Java\jdk1.7.0_25\include\win32;E:\0821出版本\trunk\cocos2dx\keypad_dispatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libCocosDenshion.lib;libExtensions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>Diamond.h</HeaderFileName>
+      <InterfaceIdentifierFileName>Diamond_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>Diamond_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/Diamond.tlb</TypeLibraryName>
+      <DllDataFileName />
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)extensions;$(SolutionDir)CocosDenshion\include;..\Classes\ui\layer;..\Classes\ui\sprite;..\Classes\ui\scene;..\Classes\base;..\Classes\datapool;..\Classes\platform;..\Classes\tinyxml;..\Classes\ui\action;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling />
+      <DebugInformationFormat />
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGSNDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libCocosDenshion.lib;libExtensions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>Diamond.h</HeaderFileName>
+      <InterfaceIdentifierFileName>Diamond_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>Diamond_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/Diamond.tlb</TypeLibraryName>
+      <DllDataFileName />
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\AppMacros.h" />
+    <ClInclude Include="..\Classes\base\delta_time.h" />
+    <ClInclude Include="..\Classes\base\game_win_event.h" />
+    <ClInclude Include="..\Classes\base\stl_util.h" />
+    <ClInclude Include="..\Classes\base\xml_util.h" />
+    <ClInclude Include="..\Classes\datapool\ActionType.h" />
+    <ClInclude Include="..\Classes\datapool\CallbackData.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigConst.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigCopy.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigCopyProp.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigCopySkill.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigCopyWave.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigMap.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigMonster.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigMonsterSkill.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigProp.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigSpriteSkill.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigSpriteSkillStatus.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigStatusType.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigStore.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigText.h" />
+    <ClInclude Include="..\Classes\datapool\ConfigWaveMonster.h" />
+    <ClInclude Include="..\Classes\datapool\CopyData.h" />
+    <ClInclude Include="..\Classes\datapool\DataPool.h" />
+    <ClInclude Include="..\Classes\datapool\EffectData.h" />
+    <ClInclude Include="..\Classes\datapool\ElementType.h" />
+    <ClInclude Include="..\Classes\datapool\LoadHelper.h" />
+    <ClInclude Include="..\Classes\datapool\MapData.h" />
+    <ClInclude Include="..\Classes\datapool\MapDataManager.h" />
+    <ClInclude Include="..\Classes\datapool\MarcoDefine.h" />
+    <ClInclude Include="..\Classes\datapool\MonsterDataManager.h" />
+    <ClInclude Include="..\Classes\datapool\MonsterData.h" />
+    <ClInclude Include="..\Classes\datapool\PropData.h" />
+    <ClInclude Include="..\Classes\datapool\SceneStatusData.h" />
+    <ClInclude Include="..\Classes\datapool\SpriteSkillData.h" />
+    <ClInclude Include="..\Classes\datapool\SpriteSkillManager.h" />
+    <ClInclude Include="..\Classes\datapool\StatusData.h" />
+    <ClInclude Include="..\Classes\datapool\StoreData.h" />
+    <ClInclude Include="..\Classes\datapool\UserData.h" />
+    <ClInclude Include="..\Classes\platform\BasePlatformCenter.h" />
+    <ClInclude Include="..\Classes\platform\GamePlatform.h" />
+    <ClInclude Include="..\Classes\platform\OfficialPlatformCenter.h" />
+    <ClInclude Include="..\Classes\platform\PlatformDefine.h" />
+    <ClInclude Include="..\Classes\sound\SoundManager.h" />
+    <ClInclude Include="..\Classes\tinyxml\tinystr.h" />
+    <ClInclude Include="..\Classes\tinyxml\tinyxml.h" />
+    <ClInclude Include="..\Classes\ui\action\ActionNumTo.h" />
+    <ClInclude Include="..\Classes\ui\layer\androidDelegate.h" />
+    <ClInclude Include="..\Classes\ui\layer\BaseLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\BeginnersGuideLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\BoardLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\BuyPropItemLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\BuyPropLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\CopyLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\DailyRewordLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\EffectLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\EnergyLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\FreeGoldLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\LoseLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\MapLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\MenuLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\MonsterLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\MusicLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\PropLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\ShieldLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\SkillLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\StoreLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\TimeLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\TopLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\WallHpLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\WallLayer.h" />
+    <ClInclude Include="..\Classes\ui\layer\WinLayer.h" />
+    <ClInclude Include="..\Classes\ui\scene\FightScene.h" />
+    <ClInclude Include="..\Classes\ui\scene\LoginScene.h" />
+    <ClInclude Include="..\Classes\ui\scene\MainScene.h" />
+    <ClInclude Include="..\Classes\ui\sprite\Button.h" />
+    <ClInclude Include="..\Classes\ui\sprite\CCGridView.h" />
+    <ClInclude Include="..\Classes\ui\sprite\CCTableViewEx.h" />
+    <ClInclude Include="..\Classes\ui\sprite\CopyGridViewCell.h" />
+    <ClInclude Include="..\Classes\ui\sprite\CopyStar.h" />
+    <ClInclude Include="..\Classes\ui\sprite\GainStar.h" />
+    <ClInclude Include="..\Classes\ui\sprite\GemCellEx.h" />
+    <ClInclude Include="..\Classes\ui\sprite\PropButton.h" />
+    <ClInclude Include="..\Classes\ui\sprite\HpLabel.h" />
+    <ClInclude Include="..\Classes\ui\sprite\MapTableViewCell.h" />
+    <ClInclude Include="..\Classes\ui\sprite\MonsterNode.h" />
+    <ClInclude Include="..\Classes\ui\sprite\SkillButton.h" />
+    <ClInclude Include="..\Classes\ui\sprite\StoreChildSprite.h" />
+    <ClInclude Include="..\Classes\ui\sprite\StoreTableViewCell.h" />
+    <ClInclude Include="..\Classes\ui\sprite\WaveLabel.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\base\delta_time.cpp" />
+    <ClCompile Include="..\Classes\base\game_win_event.cpp" />
+    <ClCompile Include="..\Classes\base\xml_util.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigConst.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigCopy.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigCopyProp.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigCopySkill.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigCopyWave.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigMap.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigMonster.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigMonsterSkill.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigProp.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigSpriteSkill.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigSpriteSkillStatus.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigStatusType.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigStore.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigText.cpp" />
+    <ClCompile Include="..\Classes\datapool\ConfigWaveMonster.cpp" />
+    <ClCompile Include="..\Classes\datapool\CopyData.cpp" />
+    <ClCompile Include="..\Classes\datapool\DataPool.cpp" />
+    <ClCompile Include="..\Classes\datapool\EffectData.cpp" />
+    <ClCompile Include="..\Classes\datapool\LoadHelper.cpp" />
+    <ClCompile Include="..\Classes\datapool\MapData.cpp" />
+    <ClCompile Include="..\Classes\datapool\MapDataManager.cpp" />
+    <ClCompile Include="..\Classes\datapool\MonsterDataManager.cpp" />
+    <ClCompile Include="..\Classes\datapool\MonsterData.cpp" />
+    <ClCompile Include="..\Classes\datapool\PropData.cpp" />
+    <ClCompile Include="..\Classes\datapool\SceneStatusData.cpp" />
+    <ClCompile Include="..\Classes\datapool\SpriteSkillData.cpp" />
+    <ClCompile Include="..\Classes\datapool\SpriteSkillManager.cpp" />
+    <ClCompile Include="..\Classes\datapool\StatusData.cpp" />
+    <ClCompile Include="..\Classes\datapool\StoreData.cpp" />
+    <ClCompile Include="..\Classes\datapool\UserData.cpp" />
+    <ClCompile Include="..\Classes\platform\BasePlatformCenter.cpp" />
+    <ClCompile Include="..\Classes\platform\GamePlatform.cpp" />
+    <ClCompile Include="..\Classes\platform\OfficialPlatformCenter.cpp" />
+    <ClCompile Include="..\Classes\sound\SoundManager.cpp" />
+    <ClCompile Include="..\Classes\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\Classes\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\Classes\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\Classes\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\Classes\ui\action\ActionNumTo.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\androidDelegate.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\BaseLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\BeginnersGuideLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\BoardLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\BuyPropItemLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\BuyPropLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\CopyLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\DailyRewordLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\EffectLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\EnergyLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\FreeGoldLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\LoseLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\MapLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\MenuLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\MonsterLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\MusicLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\PropLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\ShieldLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\SkillLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\StoreLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\TimeLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\TopLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\WallHpLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\WallLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\layer\WinLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\scene\FightScene.cpp" />
+    <ClCompile Include="..\Classes\ui\scene\LoginScene.cpp" />
+    <ClCompile Include="..\Classes\ui\scene\MainScene.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\Button.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\CCGridView.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\CCTableViewEx.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\CopyGridViewCell.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\CopyStar.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\GainStar.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\GemCellEx.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\PropButton.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\HpLabel.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\MapTableViewCell.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\MonsterNode.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\SkillButton.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\StoreChildSprite.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\StoreTableViewCell.cpp" />
+    <ClCompile Include="..\Classes\ui\sprite\WaveLabel.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

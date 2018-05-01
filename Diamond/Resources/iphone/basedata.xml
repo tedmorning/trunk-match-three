@@ -1,0 +1,1665 @@
+﻿<?xml version="1.0"  ?>
+<basedata>
+<const>
+<item  id="DAILY_REWARD_GOLD" value="300" />
+<item  id="GEM_NORMAL_AGGRESSION" value="50" />
+<item  id="GEM_EXPLOSIVE_AGGRESSION" value="100" />
+<item  id="GEM_ROW_COLUMN_REMOVE_AGGRESSION" value="150" />
+<item  id="GEM_HYPERCUBE_AGGRESSION" value="200" />
+<item  id="GEM_EXPLOSIVE_COMPOSE" value="100" />
+<item  id="GEM_ROW_COLUMN_REMOVE_COMPOSE" value="150" />
+<item  id="GEM_HYPERCUBE_COMPOSE" value="200" />
+<item  id="GEM_NORMAL_ATK_NUM" value="1" />
+<item  id="GEM_EXPLOSIVE_ATK_NUM" value="4" />
+<item  id="GEM_ROW_COLUMN_REMOVE_ATK_NUM" value="4" />
+<item  id="GEM_HYPERCUBE_ATK_NUM" value="6" />
+</const>
+<map>
+<item  id="1" name="死亡矿井" tex="map_1.png" copy_count="25" copy_tex="copy_scene_bg.png" />
+<item  id="2" name="血色大教堂" tex="map_2.png" copy_count="24" />
+</map>
+<copy>
+<item  id="1" map_id="1" name="矿井洞口" desp="新手引导" tex="copyitem.png" wave_count="5" monster_count="10" time="120" gem_num="5" hp="6000" one_star_sec="58" two_star_sec="48" three_star_sec="33" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" x="85" y="465" />
+<item  id="2" map_id="1" name="矿洞1" tex="copyitem.png" wave_count="18" monster_count="12" time="150" gem_num="5" hp="6000" one_star_sec="133" two_star_sec="123" three_star_sec="108" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="1" x="217" y="525" />
+<item  id="3" map_id="1" name="矿洞2" tex="copyitem.png" wave_count="18" monster_count="12" time="150" gem_num="5" hp="6000" one_star_sec="150" two_star_sec="140" three_star_sec="125" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="2" x="333" y="530" />
+<item  id="4" map_id="1" name="矿洞3" tex="copyitem.png" wave_count="19" monster_count="12" time="150" gem_num="5" hp="6000" one_star_sec="191" two_star_sec="181" three_star_sec="166" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="3" x="465" y="549" />
+<item  id="5" map_id="1" name="矿洞4" tex="copyitem.png" wave_count="18" monster_count="12" time="150" gem_num="5" hp="6000" one_star_sec="201" two_star_sec="191" three_star_sec="176" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="4" x="585" y="559" />
+<item  id="6" map_id="1" name="矿洞5Boos1" tex="copyitem.png" wave_count="11" monster_count="12" time="150" gem_num="5" hp="6000" one_star_sec="264" two_star_sec="254" three_star_sec="239" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="5" x="657" y="516" />
+<item  id="7" map_id="1" name="矿洞6" tex="copyitem.png" wave_count="18" monster_count="12" time="150" gem_num="6" hp="6000" one_star_sec="204" two_star_sec="194" three_star_sec="179" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="6" x="560" y="458" />
+<item  id="8" map_id="1" name="矿洞7" tex="copyitem.png" wave_count="19" monster_count="12" time="150" gem_num="6" hp="6000" one_star_sec="184" two_star_sec="174" three_star_sec="159" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="7" x="438" y="439" />
+<item  id="9" map_id="1" name="矿洞8" tex="copyitem.png" wave_count="19" monster_count="12" time="150" gem_num="6" hp="6000" one_star_sec="272" two_star_sec="262" three_star_sec="247" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="8" x="325" y="432" />
+<item  id="10" map_id="1" name="矿洞9" tex="copyitem.png" wave_count="19" monster_count="12" time="150" gem_num="6" hp="6000" one_star_sec="256" two_star_sec="246" three_star_sec="231" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="9" x="216" y="415" />
+<item  id="11" map_id="1" name="矿洞10" tex="copyitem.png" wave_count="22" monster_count="12" time="150" gem_num="6" hp="6000" one_star_sec="328" two_star_sec="318" three_star_sec="303" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="10" x="213" y="330" />
+<item  id="12" map_id="1" name="矿洞11Boss2" tex="copyitem.png" wave_count="11" monster_count="12" time="150" gem_num="6" hp="6000" one_star_sec="370" two_star_sec="360" three_star_sec="345" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="11" x="187" y="261" />
+<item  id="13" map_id="1" name="矿洞12" tex="copyitem.png" wave_count="19" monster_count="12" time="300" gem_num="6" hp="6000" one_star_sec="245" two_star_sec="235" three_star_sec="220" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="12" x="291" y="225" />
+<item  id="14" map_id="1" name="矿洞13" tex="copyitem.png" wave_count="19" monster_count="12" time="300" gem_num="6" hp="6000" one_star_sec="270" two_star_sec="260" three_star_sec="245" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="13" x="379" y="170" />
+<item  id="15" map_id="1" name="矿洞14" tex="copyitem.png" wave_count="19" monster_count="12" time="300" gem_num="6" hp="6000" one_star_sec="235" two_star_sec="225" three_star_sec="210" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="14" x="475" y="201" />
+<item  id="16" map_id="1" name="矿洞15" tex="copyitem.png" wave_count="19" monster_count="12" time="300" gem_num="6" hp="6000" one_star_sec="189" two_star_sec="179" three_star_sec="164" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="15" x="440" y="330" />
+<item  id="17" map_id="1" name="矿洞16" tex="copyitem.png" wave_count="19" monster_count="12" time="300" gem_num="6" hp="6000" one_star_sec="248" two_star_sec="237" three_star_sec="222" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="16" x="528" y="295" />
+<item  id="18" map_id="1" name="矿洞17Boss3" tex="copyitem.png" wave_count="15" monster_count="12" time="300" gem_num="6" hp="6000" one_star_sec="272" two_star_sec="262" three_star_sec="247" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="17" x="581" y="234" />
+<item  id="19" map_id="1" name="矿洞18" tex="copyitem.png" wave_count="19" monster_count="12" time="300" gem_num="6" hp="6000" one_star_sec="204" two_star_sec="194" three_star_sec="179" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="18" x="599" y="160" />
+<item  id="20" map_id="1" name="矿洞19" tex="copyitem.png" wave_count="19" monster_count="12" time="300" gem_num="6" hp="6000" one_star_sec="225" two_star_sec="215" three_star_sec="200" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="19" x="729" y="187" />
+<item  id="21" map_id="1" name="矿洞20" tex="copyitem.png" wave_count="19" monster_count="12" time="300" gem_num="6" hp="6000" one_star_sec="241" two_star_sec="231" three_star_sec="216" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="20" x="839" y="255" />
+<item  id="22" map_id="1" name="矿洞21" tex="copyitem.png" wave_count="19" monster_count="12" time="300" gem_num="6" hp="6000" one_star_sec="217" two_star_sec="207" three_star_sec="192" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="21" x="736" y="280" />
+<item  id="23" map_id="1" name="矿洞22" tex="copyitem.png" wave_count="19" monster_count="12" time="300" gem_num="6" hp="6000" one_star_sec="281" two_star_sec="271" three_star_sec="256" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="22" x="634" y="304" />
+<item  id="24" map_id="1" name="矿洞23Boss4" tex="copyitem.png" wave_count="19" monster_count="12" time="300" gem_num="6" hp="6000" one_star_sec="286" two_star_sec="276" three_star_sec="261" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="23" x="674" y="374" />
+<item  id="25" map_id="1" name="无限模式" tex="copyitem.png" wave_count="9999" monster_count="12" time="30000" gem_num="6" hp="6000" one_star_sec="286" two_star_sec="276" three_star_sec="261" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" prev_id="24" x="809" y="464" infinite="1" />
+<item  id="26" map_id="2" name="血色大教堂" tex="copyitem.png" wave_count="5" monster_count="10" time="120" gem_num="5" hp="6000" one_star_sec="58" two_star_sec="48" three_star_sec="33" one_star_hp="4200" two_star_hp="4800" three_star_hp="5400" />
+</copy>
+<monster>
+<item  id="1" name="豺狼人" tex1="m_xue_move (1).png" tex2="m_xue_move (2).png" tex3="m_xue_move (3).png" atk_tex1="m_xue_atk (1).png" atk_tex2="m_xue_atk (2).png" atk_tex3="m_xue_atk (3).png" rest_tex1="m_xue_rest (1).png" rest_tex2="m_xue_rest (2).png" be_atked_tex1="m_xue_rest (2).png" hp="2" aggression="2" weight="40" speed="20" interval="2" priority="1" atk_pos="1" />
+<item  id="2" name="穴居人矿工" tex1="m_xue_move (1).png" tex2="m_xue_move (2).png" tex3="m_xue_move (3).png" atk_tex1="m_xue_atk (1).png" atk_tex2="m_xue_atk (2).png" atk_tex3="m_xue_atk (3).png" rest_tex1="m_xue_rest (1).png" rest_tex2="m_xue_rest (2).png" be_atked_tex1="m_xue_be_atked (1).png" hp="100" aggression="10" weight="40" speed="20" interval="2" priority="1" atk_pos="1" />
+<item  id="3" name="半人马" tex1="m_half_move (1).png" tex2="m_half_move (2).png" tex3="m_half_move (3).png" atk_tex1="m_half_atk (1).png" atk_tex2="m_half_atk (2).png" rest_tex1="m_half_rest (1).png" rest_tex2="m_half_rest (2).png" be_atked_tex1="m_half_rest (2).png" hp="3" aggression="3" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="4" name="野猪人" tex1="m_xue_move (1).png" tex2="m_xue_move (2).png" tex3="m_xue_move (3).png" atk_tex1="m_xue_atk (1).png" atk_tex2="m_xue_atk (2).png" atk_tex3="m_xue_atk (3).png" rest_tex1="m_xue_rest (1).png" rest_tex2="m_xue_rest (2).png" be_atked_tex1="m_xue_rest (2).png" hp="4" aggression="4" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="5" name="熊猫人" tex1="m_xue_move (1).png" tex2="m_xue_move (2).png" tex3="m_xue_move (3).png" atk_tex1="m_xue_atk (1).png" atk_tex2="m_xue_atk (2).png" atk_tex3="m_xue_atk (3).png" rest_tex1="m_xue_rest (1).png" rest_tex2="m_xue_rest (2).png" be_atked_tex1="m_xue_rest (2).png" hp="4" aggression="4" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="6" name="牛头人" tex1="m_cattle_move (1).png" tex2="m_cattle_move (2).png" tex3="m_cattle_move (3).png" atk_tex1="m_cattle_atk (1).png" atk_tex2="m_cattle_atk (2).png" rest_tex1="m_cattle_rest (1).png" rest_tex2="m_cattle_rest (2).png" be_atked_tex1="m_cattle_rest (2).png" hp="4" aggression="4" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="7" name="被遗忘者" tex1="m_fg_move (1).png" tex2="m_fg_move (2).png" tex3="m_fg_move (3).png" atk_tex1="m_fg_atk (1).png" atk_tex2="m_fg_atk (2).png" rest_tex1="m_fg_rest (1).png" rest_tex2="m_fg_rest (2).png" be_atked_tex1="m_fg_rest (2).png" hp="5" aggression="7" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="8" name="兽人" tex1="m_xue_move (1).png" tex2="m_xue_move (2).png" tex3="m_xue_move (3).png" atk_tex1="m_xue_atk (1).png" atk_tex2="m_xue_atk (2).png" atk_tex3="m_xue_atk (3).png" rest_tex1="m_xue_rest (1).png" rest_tex2="m_xue_rest (2).png" be_atked_tex1="m_xue_rest (2).png" hp="5" aggression="7" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="9" name="巨魔" tex1="m_xue_move (1).png" tex2="m_xue_move (2).png" tex3="m_xue_move (3).png" atk_tex1="m_xue_atk (1).png" atk_tex2="m_xue_atk (2).png" atk_tex3="m_xue_atk (3).png" rest_tex1="m_xue_rest (1).png" rest_tex2="m_xue_rest (2).png" be_atked_tex1="m_xue_rest (2).png" hp="5" aggression="7" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="10" name="菲迪亚法师" tex1="m_blood_move (1).png" tex2="m_blood_move (2).png" tex3="m_blood_move (3).png" atk_tex1="m_blood_atk (1).png" atk_tex2="m_blood_atk (2).png" rest_tex1="m_blood_rest (1).png" rest_tex2="m_blood_rest (2).png" be_atked_tex1="m_blood_be_atked (1).png" hp="100" aggression="15" weight="50" speed="20" interval="1" priority="1" atk_pos=".5" skill_id="1" />
+<item  id="11" name="菲迪亚海盗" tex1="m_dij_move (1).png" tex2="m_dij_move (2).png" tex3="m_dij_move (3).png" atk_tex1="m_dij_atk (1).png" atk_tex2="m_dij_atk (2).png" atk_tex3="m_dij_atk (3).png" rest_tex1="m_dij_rest (1).png" rest_tex2="m_dij_rest (2).png" be_atked_tex1="m_dij_be_atked (1).png" hp="150" aggression="15" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="12" name="菲迪亚盗贼" tex1="m_hd_move (1).png" tex2="m_hd_move (2).png" tex3="m_hd_move (3).png" atk_tex1="m_hd_atk (1).png" atk_tex2="m_hd_atk (2).png" rest_tex1="m_hd_rest (1).png" rest_tex2="m_hd_rest (2).png" be_atked_tex1="m_hd_be_atked (1).png" hp="200" aggression="10" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="13" name="侏儒" tex1="m_zn_move (1).png" tex2="m_zn_move (2).png" tex3="m_zn_move (3).png" atk_tex1="m_zn_atk (1).png" atk_tex2="m_zn_atk (2).png" rest_tex1="m_zn_rest (1).png" rest_tex2="m_zn_rest (2).png" be_atked_tex1="m_zn_rest (2).png" hp="5" aggression="7" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="14" name="矮人" tex1="m_ai_move (1).png" tex2="m_ai_move (2).png" tex3="m_ai_move (3).png" atk_tex1="m_ai_atk (1).png" atk_tex2="m_ai_atk (2).png" rest_tex1="m_ai_rest (1).png" rest_tex2="m_ai_rest (2).png" be_atked_tex1="m_ai_rest (2).png" hp="5" aggression="7" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="15" name="德莱尼" tex1="m_dln_move (1).png" tex2="m_dln_move (2).png" tex3="m_dln_move (3).png" atk_tex1="m_dln_atk (1).png" atk_tex2="m_dln_atk (2).png" rest_tex1="m_dln_rest (1).png" rest_tex2="m_dln_rest (2).png" be_atked_tex1="m_dln_rest (2).png" hp="5" aggression="7" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="16" name="暗夜精灵" tex1="m_dark_move (1).png" tex2="m_dark_move (2).png" tex3="m_dark_move (3).png" atk_tex1="m_dark_atk (1).png" atk_tex2="m_dark_atk (2).png" rest_tex1="m_dark_rest (1).png" rest_tex2="m_dark_rest (2).png" be_atked_tex1="m_dark_rest (2).png" hp="5" aggression="7" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="17" name="狼人" tex1="m_blood_move (1).png" tex2="m_blood_move (2).png" tex3="m_blood_move (3).png" atk_tex1="m_blood_atk (1).png" atk_tex2="m_blood_atk (2).png" rest_tex1="m_blood_rest (1).png" rest_tex2="m_blood_rest (2).png" be_atked_tex1="m_blood_rest (2).png" hp="5" aggression="7" weight="40" speed="20" interval="1" priority="1" atk_pos="1" />
+<item  id="18" name="格拉布托克" tex1="m_sts_move (1).png" tex2="m_sts_move (2).png" tex3="m_sts_move (3).png" atk_tex1="m_sts_atk (1).png" atk_tex2="m_sts_atk (3).png" rest_tex1="m_sts_rest (1).png" rest_tex2="m_sts_rest (2).png" be_atked_tex1="m_sts_be_atked (1).png" hp="5000" aggression="50" weight="60" speed="20" interval="3" priority="1" atk_pos=".7" skill_id="2" boss="1" />
+<item  id="19" name="监工" tex1="m_srm_move (1).png" tex2="m_srm_move (2).png" tex3="m_srm_move (3).png" atk_tex1="m_srm_atk (1).png" atk_tex2="m_srm_atk (2).png" atk_tex3="m_srm_atk (3).png" rest_tex1="m_srm_rest (1).png" rest_tex2="m_srm_rest (2).png" be_atked_tex1="m_srm_be_atked (1).png" hp="250" aggression="20" weight="50" speed="20" interval="3" priority="1" atk_pos="1" />
+<item  id="20" name="海盗" tex1="m_p_move (1).png" tex2="m_p_move (2).png" tex3="m_p_move (3).png" atk_tex1="m_p_atk (1).png" atk_tex2="m_p_atk (2).png" rest_tex1="m_p_rest (1).png" rest_tex2="m_p_rest (2).png" be_atked_tex1="m_p_rest (2).png" hp="200" aggression="10" weight="40" speed="20" interval="3" priority="1" atk_pos="1" />
+<item  id="21" name="赫利克斯-破甲" tex1="m_pj_move (1).png" tex2="m_pj_move (2).png" tex3="m_pj_move (3).png" atk_tex1="m_pj_atk (1).png" atk_tex2="m_pj_atk (2).png" rest_tex1="m_pj_rest (1).png" rest_tex2="m_pj_rest (2).png" be_atked_tex1="m_pj_be_atked (1).png" hp="7000" aggression="50" weight="60" speed="20" interval="3" priority="1" atk_pos="1" skill_id="6" boss="1" />
+<item  id="22" name="撕心狼" tex1="m_sxl_move (1).png" tex2="m_sxl_move (2).png" tex3="m_sxl_move (3).png" atk_tex1="m_sxl_atk (1).png" atk_tex2="m_sxl_atk (2).png" rest_tex1="m_sxl_rest (1).png" rest_tex2="m_sxl_rest (2).png" be_atked_tex1="m_sxl_be_atk (1).png" hp="7000" aggression="50" weight="60" speed="20" interval="2" priority="1" atk_pos="1" skill_id="7" boss="1" />
+<item  id="23" name="死神5000" tex1="m_ss5000_move (1).png" tex2="m_ss5000_move (2).png" tex3="m_ss5000_move (3).png" atk_tex1="m_ss5000_atk (1).png" atk_tex2="m_ss5000_atk (2).png" atk_tex3="m_ss5000_atk (3).png" rest_tex1="m_ss5000_rest (1).png" rest_tex2="m_ss5000_rest (2).png" be_atked_tex1="m_ss5000_be_atk (1).png" hp="7000" aggression="50" weight="60" speed="20" interval="2" priority="1" atk_pos="1" skill_id="5" boss="1" />
+<item  id="24" name="猎狗" tex1="m_lg_move(1).png" tex2="m_lg_move(2).png" tex3="m_lg_move(3).png" atk_tex1="m_lg_atk(1).png" atk_tex2="m_lg_atk(2).png" rest_tex1="m_lg_rest(1).png" rest_tex2="m_lg_rest(2).png" be_atked_tex1="m_lg_be_atk(1).png" hp="150" aggression="20" weight="40" speed="20" interval="2" priority="1" atk_pos="1" />
+</monster>
+<wavemonster>
+<item  id="1" wave_id="1" monster_id="2" row_index="1" />
+<item  id="2" wave_id="2" monster_id="2" />
+<item  id="3" wave_id="2" monster_id="2" row_index="3" />
+<item  id="4" wave_id="3" monster_id="10" row_index="1" />
+<item  id="5" wave_id="4" monster_id="2" />
+<item  id="6" wave_id="4" monster_id="2" row_index="1" />
+<item  id="7" wave_id="4" monster_id="2" row_index="2" />
+<item  id="8" wave_id="4" monster_id="2" row_index="3" />
+<item  id="9" wave_id="5" monster_id="10" row_index="1" />
+<item  id="10" wave_id="6" monster_id="2" row_index="3" />
+<item  id="11" wave_id="7" monster_id="2" row_index="2" />
+<item  id="12" wave_id="8" monster_id="2" row_index="1" />
+<item  id="13" wave_id="9" monster_id="2" />
+<item  id="14" wave_id="10" monster_id="12" row_index="3" />
+<item  id="15" wave_id="11" monster_id="12" row_index="2" />
+<item  id="16" wave_id="12" monster_id="12" row_index="1" />
+<item  id="17" wave_id="13" monster_id="12" />
+<item  id="18" wave_id="14" monster_id="10" row_index="1" />
+<item  id="19" wave_id="15" monster_id="10" row_index="2" />
+<item  id="20" wave_id="16" monster_id="2" row_index="2" />
+<item  id="21" wave_id="16" monster_id="2" row_index="3" />
+<item  id="22" wave_id="17" monster_id="2" row_index="1" />
+<item  id="23" wave_id="17" monster_id="2" row_index="2" />
+<item  id="24" wave_id="18" monster_id="2" />
+<item  id="25" wave_id="18" monster_id="2" row_index="1" />
+<item  id="26" wave_id="19" monster_id="12" row_index="1" />
+<item  id="27" wave_id="19" monster_id="12" row_index="2" />
+<item  id="28" wave_id="20" monster_id="12" />
+<item  id="29" wave_id="20" monster_id="12" row_index="3" />
+<item  id="30" wave_id="21" monster_id="2" />
+<item  id="31" wave_id="21" monster_id="2" row_index="3" />
+<item  id="32" wave_id="22" monster_id="2" row_index="1" />
+<item  id="33" wave_id="22" monster_id="2" row_index="2" />
+<item  id="34" wave_id="23" monster_id="10" row_index="1" />
+<item  id="35" wave_id="23" monster_id="10" row_index="2" />
+<item  id="36" wave_id="24" monster_id="2" row_index="1" />
+<item  id="37" wave_id="24" monster_id="2" row_index="2" />
+<item  id="38" wave_id="25" monster_id="2" />
+<item  id="39" wave_id="25" monster_id="2" row_index="3" />
+<item  id="40" wave_id="26" monster_id="19" row_index="1" />
+<item  id="41" wave_id="27" monster_id="2" />
+<item  id="42" wave_id="28" monster_id="2" row_index="1" />
+<item  id="43" wave_id="29" monster_id="2" row_index="2" />
+<item  id="44" wave_id="30" monster_id="2" row_index="3" />
+<item  id="45" wave_id="31" monster_id="12" />
+<item  id="46" wave_id="32" monster_id="12" row_index="1" />
+<item  id="47" wave_id="33" monster_id="12" row_index="2" />
+<item  id="48" wave_id="34" monster_id="12" row_index="3" />
+<item  id="49" wave_id="35" monster_id="10" row_index="1" />
+<item  id="50" wave_id="35" monster_id="10" row_index="2" />
+<item  id="51" wave_id="36" monster_id="2" row_index="2" />
+<item  id="52" wave_id="36" monster_id="2" row_index="3" />
+<item  id="53" wave_id="37" monster_id="12" row_index="1" />
+<item  id="54" wave_id="37" monster_id="12" row_index="2" />
+<item  id="55" wave_id="38" monster_id="2" />
+<item  id="56" wave_id="38" monster_id="2" row_index="1" />
+<item  id="57" wave_id="39" monster_id="12" row_index="1" />
+<item  id="58" wave_id="39" monster_id="12" row_index="2" />
+<item  id="59" wave_id="40" monster_id="2" row_index="2" />
+<item  id="60" wave_id="40" monster_id="2" row_index="3" />
+<item  id="61" wave_id="41" monster_id="19" row_index="1" />
+<item  id="62" wave_id="41" monster_id="19" row_index="2" />
+<item  id="63" wave_id="42" monster_id="2" />
+<item  id="64" wave_id="42" monster_id="2" row_index="2" />
+<item  id="65" wave_id="43" monster_id="2" row_index="1" />
+<item  id="66" wave_id="43" monster_id="2" row_index="3" />
+<item  id="67" wave_id="44" monster_id="2" />
+<item  id="68" wave_id="44" monster_id="2" row_index="1" />
+<item  id="69" wave_id="45" monster_id="2" row_index="1" />
+<item  id="70" wave_id="45" monster_id="2" row_index="2" />
+<item  id="71" wave_id="46" monster_id="2" row_index="2" />
+<item  id="72" wave_id="46" monster_id="2" row_index="3" />
+<item  id="73" wave_id="47" monster_id="2" row_index="1" />
+<item  id="74" wave_id="47" monster_id="2" row_index="2" />
+<item  id="75" wave_id="48" monster_id="2" />
+<item  id="76" wave_id="48" monster_id="2" row_index="1" />
+<item  id="77" wave_id="49" monster_id="2" row_index="1" />
+<item  id="78" wave_id="49" monster_id="2" row_index="2" />
+<item  id="79" wave_id="50" monster_id="2" row_index="2" />
+<item  id="80" wave_id="50" monster_id="2" row_index="3" />
+<item  id="81" wave_id="51" monster_id="10" row_index="1" />
+<item  id="82" wave_id="51" monster_id="10" row_index="2" />
+<item  id="83" wave_id="52" monster_id="12" row_index="2" />
+<item  id="84" wave_id="52" monster_id="12" row_index="3" />
+<item  id="85" wave_id="53" monster_id="12" row_index="1" />
+<item  id="86" wave_id="53" monster_id="12" row_index="2" />
+<item  id="87" wave_id="54" monster_id="12" />
+<item  id="88" wave_id="54" monster_id="12" row_index="1" />
+<item  id="89" wave_id="55" monster_id="12" row_index="1" />
+<item  id="90" wave_id="55" monster_id="12" row_index="2" />
+<item  id="91" wave_id="56" monster_id="12" row_index="2" />
+<item  id="92" wave_id="56" monster_id="12" row_index="3" />
+<item  id="93" wave_id="57" monster_id="12" row_index="1" />
+<item  id="94" wave_id="57" monster_id="12" row_index="2" />
+<item  id="95" wave_id="58" monster_id="12" />
+<item  id="96" wave_id="58" monster_id="12" row_index="1" />
+<item  id="97" wave_id="59" monster_id="19" row_index="1" />
+<item  id="98" wave_id="59" monster_id="19" row_index="2" />
+<item  id="99" wave_id="60" monster_id="2" row_index="1" />
+<item  id="100" wave_id="60" monster_id="2" row_index="2" />
+<item  id="101" wave_id="61" monster_id="2" />
+<item  id="102" wave_id="61" monster_id="2" row_index="3" />
+<item  id="103" wave_id="62" monster_id="2" row_index="1" />
+<item  id="104" wave_id="62" monster_id="2" row_index="2" />
+<item  id="105" wave_id="63" monster_id="2" />
+<item  id="106" wave_id="63" monster_id="2" row_index="3" />
+<item  id="107" wave_id="64" monster_id="2" row_index="1" />
+<item  id="108" wave_id="64" monster_id="2" row_index="2" />
+<item  id="109" wave_id="65" monster_id="2" />
+<item  id="110" wave_id="65" monster_id="2" row_index="3" />
+<item  id="111" wave_id="66" monster_id="2" row_index="1" />
+<item  id="112" wave_id="66" monster_id="2" row_index="2" />
+<item  id="113" wave_id="67" monster_id="2" />
+<item  id="114" wave_id="67" monster_id="2" row_index="3" />
+<item  id="115" wave_id="68" monster_id="2" row_index="1" />
+<item  id="116" wave_id="68" monster_id="2" row_index="2" />
+<item  id="117" wave_id="69" monster_id="10" row_index="1" />
+<item  id="118" wave_id="69" monster_id="10" row_index="2" />
+<item  id="119" wave_id="70" monster_id="12" row_index="1" />
+<item  id="120" wave_id="70" monster_id="12" row_index="2" />
+<item  id="121" wave_id="71" monster_id="12" />
+<item  id="122" wave_id="71" monster_id="12" row_index="3" />
+<item  id="123" wave_id="72" monster_id="12" row_index="1" />
+<item  id="124" wave_id="72" monster_id="12" row_index="2" />
+<item  id="125" wave_id="73" monster_id="12" />
+<item  id="126" wave_id="73" monster_id="12" row_index="3" />
+<item  id="127" wave_id="74" monster_id="12" row_index="1" />
+<item  id="128" wave_id="74" monster_id="12" row_index="2" />
+<item  id="129" wave_id="75" monster_id="12" />
+<item  id="130" wave_id="75" monster_id="12" row_index="3" />
+<item  id="131" wave_id="76" monster_id="12" row_index="1" />
+<item  id="132" wave_id="76" monster_id="12" row_index="2" />
+<item  id="133" wave_id="77" monster_id="12" />
+<item  id="134" wave_id="77" monster_id="12" row_index="3" />
+<item  id="135" wave_id="78" monster_id="19" row_index="1" />
+<item  id="136" wave_id="78" monster_id="19" row_index="2" />
+<item  id="137" wave_id="79" monster_id="2" row_index="3" />
+<item  id="138" wave_id="80" monster_id="2" row_index="2" />
+<item  id="139" wave_id="81" monster_id="2" row_index="1" />
+<item  id="140" wave_id="82" monster_id="2" />
+<item  id="141" wave_id="83" monster_id="19" row_index="2" />
+<item  id="142" wave_id="84" monster_id="2" />
+<item  id="143" wave_id="84" monster_id="2" row_index="1" />
+<item  id="144" wave_id="84" monster_id="2" row_index="2" />
+<item  id="145" wave_id="84" monster_id="2" row_index="3" />
+<item  id="146" wave_id="85" monster_id="2" />
+<item  id="147" wave_id="85" monster_id="2" row_index="1" />
+<item  id="148" wave_id="85" monster_id="2" row_index="2" />
+<item  id="149" wave_id="85" monster_id="2" row_index="3" />
+<item  id="150" wave_id="86" monster_id="19" row_index="1" />
+<item  id="151" wave_id="86" monster_id="19" row_index="2" />
+<item  id="152" wave_id="87" monster_id="2" />
+<item  id="153" wave_id="87" monster_id="2" row_index="1" />
+<item  id="154" wave_id="87" monster_id="2" row_index="2" />
+<item  id="155" wave_id="87" monster_id="2" row_index="3" />
+<item  id="156" wave_id="88" monster_id="2" />
+<item  id="157" wave_id="88" monster_id="2" row_index="1" />
+<item  id="158" wave_id="88" monster_id="19" />
+<item  id="159" wave_id="88" monster_id="19" row_index="3" />
+<item  id="160" wave_id="89" monster_id="18" row_index="1" />
+<item  id="161" wave_id="90" monster_id="2" row_index="2" />
+<item  id="162" wave_id="90" monster_id="2" row_index="3" />
+<item  id="163" wave_id="91" monster_id="12" row_index="1" />
+<item  id="164" wave_id="91" monster_id="12" row_index="2" />
+<item  id="165" wave_id="92" monster_id="2" row_index="1" />
+<item  id="166" wave_id="92" monster_id="2" row_index="2" />
+<item  id="167" wave_id="93" monster_id="12" />
+<item  id="168" wave_id="93" monster_id="12" row_index="1" />
+<item  id="169" wave_id="94" monster_id="11" row_index="2" />
+<item  id="170" wave_id="94" monster_id="11" row_index="3" />
+<item  id="171" wave_id="95" monster_id="2" row_index="1" />
+<item  id="172" wave_id="95" monster_id="2" row_index="2" />
+<item  id="173" wave_id="96" monster_id="11" row_index="1" />
+<item  id="174" wave_id="96" monster_id="11" row_index="2" />
+<item  id="175" wave_id="97" monster_id="2" />
+<item  id="176" wave_id="97" monster_id="2" row_index="1" />
+<item  id="177" wave_id="98" monster_id="19" row_index="1" />
+<item  id="178" wave_id="98" monster_id="19" row_index="2" />
+<item  id="179" wave_id="99" monster_id="12" row_index="1" />
+<item  id="180" wave_id="99" monster_id="12" row_index="2" />
+<item  id="181" wave_id="100" monster_id="11" />
+<item  id="182" wave_id="100" monster_id="11" row_index="3" />
+<item  id="183" wave_id="101" monster_id="11" row_index="1" />
+<item  id="184" wave_id="101" monster_id="11" row_index="2" />
+<item  id="185" wave_id="102" monster_id="12" />
+<item  id="186" wave_id="102" monster_id="12" row_index="3" />
+<item  id="187" wave_id="103" monster_id="11" row_index="1" />
+<item  id="188" wave_id="103" monster_id="11" row_index="2" />
+<item  id="189" wave_id="104" monster_id="11" />
+<item  id="190" wave_id="104" monster_id="11" row_index="3" />
+<item  id="191" wave_id="105" monster_id="12" row_index="1" />
+<item  id="192" wave_id="105" monster_id="12" row_index="2" />
+<item  id="193" wave_id="106" monster_id="10" row_index="1" />
+<item  id="194" wave_id="106" monster_id="10" row_index="2" />
+<item  id="195" wave_id="107" monster_id="19" row_index="1" />
+<item  id="196" wave_id="107" monster_id="19" row_index="2" />
+<item  id="197" wave_id="108" monster_id="2" />
+<item  id="198" wave_id="109" monster_id="2" row_index="1" />
+<item  id="199" wave_id="110" monster_id="2" row_index="2" />
+<item  id="200" wave_id="111" monster_id="2" row_index="3" />
+<item  id="201" wave_id="112" monster_id="2" />
+<item  id="202" wave_id="112" monster_id="2" row_index="1" />
+<item  id="203" wave_id="113" monster_id="2" row_index="1" />
+<item  id="204" wave_id="113" monster_id="2" row_index="2" />
+<item  id="205" wave_id="114" monster_id="2" row_index="2" />
+<item  id="206" wave_id="114" monster_id="2" row_index="3" />
+<item  id="207" wave_id="115" monster_id="2" />
+<item  id="208" wave_id="115" monster_id="2" row_index="1" />
+<item  id="209" wave_id="115" monster_id="2" row_index="2" />
+<item  id="210" wave_id="116" monster_id="2" row_index="1" />
+<item  id="211" wave_id="116" monster_id="2" row_index="2" />
+<item  id="212" wave_id="116" monster_id="2" row_index="3" />
+<item  id="213" wave_id="117" monster_id="19" row_index="1" />
+<item  id="214" wave_id="117" monster_id="19" row_index="2" />
+<item  id="215" wave_id="118" monster_id="2" row_index="2" />
+<item  id="216" wave_id="118" monster_id="2" row_index="3" />
+<item  id="217" wave_id="119" monster_id="2" row_index="1" />
+<item  id="218" wave_id="119" monster_id="2" row_index="2" />
+<item  id="219" wave_id="120" monster_id="2" />
+<item  id="220" wave_id="120" monster_id="2" row_index="1" />
+<item  id="221" wave_id="121" monster_id="2" row_index="1" />
+<item  id="222" wave_id="121" monster_id="2" row_index="2" />
+<item  id="223" wave_id="121" monster_id="2" row_index="3" />
+<item  id="224" wave_id="122" monster_id="2" />
+<item  id="225" wave_id="122" monster_id="2" row_index="1" />
+<item  id="226" wave_id="122" monster_id="2" row_index="2" />
+<item  id="227" wave_id="123" monster_id="2" />
+<item  id="228" wave_id="123" monster_id="2" row_index="1" />
+<item  id="229" wave_id="123" monster_id="2" row_index="2" />
+<item  id="230" wave_id="123" monster_id="2" row_index="3" />
+<item  id="231" wave_id="124" monster_id="2" />
+<item  id="232" wave_id="124" monster_id="2" row_index="1" />
+<item  id="233" wave_id="124" monster_id="2" row_index="2" />
+<item  id="234" wave_id="124" monster_id="2" row_index="3" />
+<item  id="235" wave_id="125" monster_id="19" />
+<item  id="236" wave_id="125" monster_id="19" row_index="3" />
+<item  id="237" wave_id="126" monster_id="19" row_index="1" />
+<item  id="238" wave_id="126" monster_id="19" row_index="2" />
+<item  id="239" wave_id="127" monster_id="12" />
+<item  id="240" wave_id="128" monster_id="12" row_index="1" />
+<item  id="241" wave_id="129" monster_id="12" row_index="2" />
+<item  id="242" wave_id="130" monster_id="12" row_index="3" />
+<item  id="243" wave_id="131" monster_id="12" row_index="2" />
+<item  id="244" wave_id="131" monster_id="12" row_index="3" />
+<item  id="245" wave_id="132" monster_id="12" row_index="1" />
+<item  id="246" wave_id="132" monster_id="12" row_index="2" />
+<item  id="247" wave_id="133" monster_id="12" />
+<item  id="248" wave_id="133" monster_id="12" row_index="1" />
+<item  id="249" wave_id="134" monster_id="12" />
+<item  id="250" wave_id="134" monster_id="12" row_index="1" />
+<item  id="251" wave_id="134" monster_id="12" row_index="2" />
+<item  id="252" wave_id="135" monster_id="12" row_index="1" />
+<item  id="253" wave_id="135" monster_id="12" row_index="2" />
+<item  id="254" wave_id="135" monster_id="12" row_index="3" />
+<item  id="255" wave_id="136" monster_id="12" />
+<item  id="256" wave_id="136" monster_id="12" row_index="1" />
+<item  id="257" wave_id="136" monster_id="12" row_index="2" />
+<item  id="258" wave_id="137" monster_id="12" row_index="1" />
+<item  id="259" wave_id="137" monster_id="12" row_index="2" />
+<item  id="260" wave_id="137" monster_id="12" row_index="3" />
+<item  id="261" wave_id="138" monster_id="12" />
+<item  id="262" wave_id="138" monster_id="12" row_index="1" />
+<item  id="263" wave_id="138" monster_id="12" row_index="2" />
+<item  id="264" wave_id="138" monster_id="12" row_index="3" />
+<item  id="265" wave_id="139" monster_id="10" row_index="1" />
+<item  id="266" wave_id="139" monster_id="10" row_index="2" />
+<item  id="267" wave_id="140" monster_id="12" />
+<item  id="268" wave_id="140" monster_id="12" row_index="1" />
+<item  id="269" wave_id="140" monster_id="12" row_index="2" />
+<item  id="270" wave_id="141" monster_id="12" row_index="1" />
+<item  id="271" wave_id="141" monster_id="12" row_index="2" />
+<item  id="272" wave_id="141" monster_id="12" row_index="3" />
+<item  id="273" wave_id="142" monster_id="12" />
+<item  id="274" wave_id="142" monster_id="12" row_index="1" />
+<item  id="275" wave_id="142" monster_id="12" row_index="2" />
+<item  id="276" wave_id="143" monster_id="12" row_index="1" />
+<item  id="277" wave_id="143" monster_id="12" row_index="2" />
+<item  id="278" wave_id="143" monster_id="12" row_index="3" />
+<item  id="279" wave_id="144" monster_id="12" />
+<item  id="280" wave_id="144" monster_id="12" row_index="1" />
+<item  id="281" wave_id="144" monster_id="12" row_index="2" />
+<item  id="282" wave_id="144" monster_id="12" row_index="3" />
+<item  id="283" wave_id="145" monster_id="10" />
+<item  id="284" wave_id="145" monster_id="10" row_index="1" />
+<item  id="285" wave_id="145" monster_id="10" row_index="2" />
+<item  id="286" wave_id="145" monster_id="10" row_index="3" />
+<item  id="287" wave_id="146" monster_id="11" />
+<item  id="288" wave_id="147" monster_id="11" row_index="1" />
+<item  id="289" wave_id="148" monster_id="11" row_index="2" />
+<item  id="290" wave_id="149" monster_id="11" row_index="3" />
+<item  id="291" wave_id="150" monster_id="11" row_index="2" />
+<item  id="292" wave_id="150" monster_id="11" row_index="3" />
+<item  id="293" wave_id="151" monster_id="11" row_index="1" />
+<item  id="294" wave_id="151" monster_id="11" row_index="2" />
+<item  id="295" wave_id="152" monster_id="11" />
+<item  id="296" wave_id="152" monster_id="11" row_index="1" />
+<item  id="297" wave_id="153" monster_id="11" />
+<item  id="298" wave_id="153" monster_id="11" row_index="1" />
+<item  id="299" wave_id="153" monster_id="11" row_index="2" />
+<item  id="300" wave_id="154" monster_id="11" row_index="1" />
+<item  id="301" wave_id="154" monster_id="11" row_index="2" />
+<item  id="302" wave_id="154" monster_id="11" row_index="3" />
+<item  id="303" wave_id="155" monster_id="11" />
+<item  id="304" wave_id="155" monster_id="11" row_index="1" />
+<item  id="305" wave_id="155" monster_id="11" row_index="2" />
+<item  id="306" wave_id="156" monster_id="11" row_index="1" />
+<item  id="307" wave_id="156" monster_id="11" row_index="2" />
+<item  id="308" wave_id="156" monster_id="11" row_index="3" />
+<item  id="309" wave_id="157" monster_id="11" />
+<item  id="310" wave_id="157" monster_id="11" row_index="1" />
+<item  id="311" wave_id="157" monster_id="11" row_index="2" />
+<item  id="312" wave_id="157" monster_id="11" row_index="3" />
+<item  id="313" wave_id="158" monster_id="19" row_index="1" />
+<item  id="314" wave_id="158" monster_id="19" row_index="2" />
+<item  id="315" wave_id="159" monster_id="11" />
+<item  id="316" wave_id="159" monster_id="11" row_index="1" />
+<item  id="317" wave_id="159" monster_id="11" row_index="2" />
+<item  id="318" wave_id="160" monster_id="11" row_index="1" />
+<item  id="319" wave_id="160" monster_id="11" row_index="2" />
+<item  id="320" wave_id="160" monster_id="11" row_index="3" />
+<item  id="321" wave_id="161" monster_id="11" />
+<item  id="322" wave_id="161" monster_id="11" row_index="1" />
+<item  id="323" wave_id="161" monster_id="11" row_index="2" />
+<item  id="324" wave_id="162" monster_id="11" row_index="1" />
+<item  id="325" wave_id="162" monster_id="11" row_index="2" />
+<item  id="326" wave_id="162" monster_id="11" row_index="3" />
+<item  id="327" wave_id="163" monster_id="11" />
+<item  id="328" wave_id="163" monster_id="11" row_index="1" />
+<item  id="329" wave_id="163" monster_id="11" row_index="2" />
+<item  id="330" wave_id="163" monster_id="11" row_index="3" />
+<item  id="331" wave_id="164" monster_id="19" />
+<item  id="332" wave_id="164" monster_id="19" row_index="1" />
+<item  id="333" wave_id="164" monster_id="19" row_index="2" />
+<item  id="334" wave_id="164" monster_id="19" row_index="3" />
+<item  id="335" wave_id="165" monster_id="11" />
+<item  id="336" wave_id="166" monster_id="12" row_index="1" />
+<item  id="337" wave_id="167" monster_id="11" row_index="2" />
+<item  id="338" wave_id="168" monster_id="12" row_index="3" />
+<item  id="339" wave_id="169" monster_id="11" row_index="2" />
+<item  id="340" wave_id="169" monster_id="12" row_index="3" />
+<item  id="341" wave_id="170" monster_id="12" row_index="1" />
+<item  id="342" wave_id="170" monster_id="11" row_index="2" />
+<item  id="343" wave_id="171" monster_id="12" />
+<item  id="344" wave_id="171" monster_id="11" row_index="1" />
+<item  id="345" wave_id="172" monster_id="11" />
+<item  id="346" wave_id="172" monster_id="11" row_index="1" />
+<item  id="347" wave_id="172" monster_id="11" row_index="2" />
+<item  id="348" wave_id="173" monster_id="12" row_index="1" />
+<item  id="349" wave_id="173" monster_id="12" row_index="2" />
+<item  id="350" wave_id="173" monster_id="12" row_index="3" />
+<item  id="351" wave_id="174" monster_id="11" />
+<item  id="352" wave_id="174" monster_id="11" row_index="1" />
+<item  id="353" wave_id="174" monster_id="11" row_index="2" />
+<item  id="354" wave_id="175" monster_id="12" row_index="1" />
+<item  id="355" wave_id="175" monster_id="12" row_index="2" />
+<item  id="356" wave_id="175" monster_id="12" row_index="3" />
+<item  id="357" wave_id="176" monster_id="11" />
+<item  id="358" wave_id="176" monster_id="11" row_index="1" />
+<item  id="359" wave_id="176" monster_id="11" row_index="2" />
+<item  id="360" wave_id="176" monster_id="11" row_index="3" />
+<item  id="361" wave_id="177" monster_id="12" />
+<item  id="362" wave_id="177" monster_id="12" row_index="1" />
+<item  id="363" wave_id="177" monster_id="12" row_index="2" />
+<item  id="364" wave_id="177" monster_id="12" row_index="3" />
+<item  id="365" wave_id="178" monster_id="10" row_index="1" />
+<item  id="366" wave_id="178" monster_id="10" row_index="2" />
+<item  id="367" wave_id="179" monster_id="19" row_index="1" />
+<item  id="368" wave_id="179" monster_id="19" row_index="2" />
+<item  id="369" wave_id="180" monster_id="11" />
+<item  id="370" wave_id="180" monster_id="11" row_index="1" />
+<item  id="371" wave_id="180" monster_id="11" row_index="2" />
+<item  id="372" wave_id="181" monster_id="12" row_index="1" />
+<item  id="373" wave_id="181" monster_id="12" row_index="2" />
+<item  id="374" wave_id="181" monster_id="12" row_index="3" />
+<item  id="375" wave_id="182" monster_id="11" />
+<item  id="376" wave_id="182" monster_id="11" row_index="1" />
+<item  id="377" wave_id="182" monster_id="11" row_index="2" />
+<item  id="378" wave_id="183" monster_id="12" row_index="1" />
+<item  id="379" wave_id="183" monster_id="12" row_index="2" />
+<item  id="380" wave_id="183" monster_id="12" row_index="3" />
+<item  id="381" wave_id="184" monster_id="11" />
+<item  id="382" wave_id="184" monster_id="11" row_index="1" />
+<item  id="383" wave_id="184" monster_id="11" row_index="2" />
+<item  id="384" wave_id="184" monster_id="11" row_index="3" />
+<item  id="385" wave_id="185" monster_id="10" />
+<item  id="386" wave_id="185" monster_id="10" row_index="1" />
+<item  id="387" wave_id="185" monster_id="10" row_index="2" />
+<item  id="388" wave_id="185" monster_id="10" row_index="3" />
+<item  id="389" wave_id="186" monster_id="19" />
+<item  id="390" wave_id="186" monster_id="19" row_index="1" />
+<item  id="391" wave_id="186" monster_id="19" row_index="2" />
+<item  id="392" wave_id="186" monster_id="19" row_index="3" />
+<item  id="393" wave_id="187" monster_id="19" row_index="1" />
+<item  id="394" wave_id="187" monster_id="19" row_index="2" />
+<item  id="395" wave_id="188" monster_id="10" />
+<item  id="396" wave_id="188" monster_id="10" row_index="3" />
+<item  id="397" wave_id="189" monster_id="2" />
+<item  id="398" wave_id="189" monster_id="2" row_index="1" />
+<item  id="399" wave_id="189" monster_id="2" row_index="2" />
+<item  id="400" wave_id="189" monster_id="2" row_index="3" />
+<item  id="401" wave_id="190" monster_id="11" />
+<item  id="402" wave_id="190" monster_id="11" row_index="1" />
+<item  id="403" wave_id="190" monster_id="11" row_index="2" />
+<item  id="404" wave_id="191" monster_id="12" row_index="1" />
+<item  id="405" wave_id="191" monster_id="12" row_index="2" />
+<item  id="406" wave_id="191" monster_id="12" row_index="3" />
+<item  id="407" wave_id="192" monster_id="19" row_index="1" />
+<item  id="408" wave_id="192" monster_id="19" row_index="2" />
+<item  id="409" wave_id="193" monster_id="2" />
+<item  id="410" wave_id="193" monster_id="2" row_index="1" />
+<item  id="411" wave_id="193" monster_id="2" row_index="2" />
+<item  id="412" wave_id="193" monster_id="2" row_index="3" />
+<item  id="413" wave_id="194" monster_id="2" />
+<item  id="414" wave_id="194" monster_id="2" row_index="1" />
+<item  id="415" wave_id="194" monster_id="2" row_index="2" />
+<item  id="416" wave_id="194" monster_id="2" row_index="3" />
+<item  id="417" wave_id="195" monster_id="10" />
+<item  id="418" wave_id="195" monster_id="10" row_index="1" />
+<item  id="419" wave_id="195" monster_id="10" row_index="2" />
+<item  id="420" wave_id="195" monster_id="10" row_index="3" />
+<item  id="421" wave_id="196" monster_id="19" />
+<item  id="422" wave_id="196" monster_id="19" row_index="1" />
+<item  id="423" wave_id="196" monster_id="19" row_index="2" />
+<item  id="424" wave_id="196" monster_id="19" row_index="3" />
+<item  id="425" wave_id="197" monster_id="21" row_index="1" />
+<item  id="426" wave_id="198" monster_id="10" />
+<item  id="427" wave_id="198" monster_id="2" row_index="2" />
+<item  id="428" wave_id="199" monster_id="19" row_index="1" />
+<item  id="429" wave_id="200" monster_id="10" row_index="1" />
+<item  id="430" wave_id="200" monster_id="10" row_index="2" />
+<item  id="431" wave_id="200" monster_id="10" row_index="3" />
+<item  id="432" wave_id="201" monster_id="11" />
+<item  id="433" wave_id="201" monster_id="11" row_index="2" />
+<item  id="434" wave_id="201" monster_id="11" row_index="3" />
+<item  id="435" wave_id="202" monster_id="12" row_index="1" />
+<item  id="436" wave_id="202" monster_id="12" row_index="2" />
+<item  id="437" wave_id="202" monster_id="12" row_index="3" />
+<item  id="438" wave_id="203" monster_id="19" />
+<item  id="439" wave_id="203" monster_id="19" row_index="1" />
+<item  id="440" wave_id="204" monster_id="10" />
+<item  id="441" wave_id="204" monster_id="10" row_index="1" />
+<item  id="442" wave_id="205" monster_id="11" row_index="2" />
+<item  id="443" wave_id="205" monster_id="11" row_index="3" />
+<item  id="444" wave_id="206" monster_id="12" />
+<item  id="445" wave_id="206" monster_id="12" row_index="1" />
+<item  id="446" wave_id="207" monster_id="2" />
+<item  id="447" wave_id="207" monster_id="2" row_index="1" />
+<item  id="448" wave_id="207" monster_id="2" row_index="2" />
+<item  id="449" wave_id="207" monster_id="2" row_index="3" />
+<item  id="450" wave_id="208" monster_id="2" />
+<item  id="451" wave_id="208" monster_id="2" row_index="1" />
+<item  id="452" wave_id="208" monster_id="2" row_index="2" />
+<item  id="453" wave_id="208" monster_id="2" row_index="3" />
+<item  id="454" wave_id="209" monster_id="2" />
+<item  id="455" wave_id="209" monster_id="2" row_index="1" />
+<item  id="456" wave_id="209" monster_id="2" row_index="2" />
+<item  id="457" wave_id="209" monster_id="2" row_index="3" />
+<item  id="458" wave_id="210" monster_id="11" />
+<item  id="459" wave_id="210" monster_id="11" row_index="1" />
+<item  id="460" wave_id="210" monster_id="11" row_index="2" />
+<item  id="461" wave_id="210" monster_id="11" row_index="3" />
+<item  id="462" wave_id="211" monster_id="12" />
+<item  id="463" wave_id="211" monster_id="12" row_index="1" />
+<item  id="464" wave_id="212" monster_id="12" row_index="2" />
+<item  id="465" wave_id="212" monster_id="12" row_index="3" />
+<item  id="466" wave_id="213" monster_id="10" row_index="1" />
+<item  id="467" wave_id="213" monster_id="10" row_index="2" />
+<item  id="468" wave_id="214" monster_id="11" row_index="2" />
+<item  id="469" wave_id="214" monster_id="11" row_index="3" />
+<item  id="470" wave_id="215" monster_id="11" />
+<item  id="471" wave_id="215" monster_id="11" row_index="1" />
+<item  id="472" wave_id="215" monster_id="11" row_index="2" />
+<item  id="473" wave_id="215" monster_id="11" row_index="3" />
+<item  id="474" wave_id="216" monster_id="19" />
+<item  id="475" wave_id="216" monster_id="19" row_index="1" />
+<item  id="476" wave_id="216" monster_id="19" row_index="2" />
+<item  id="477" wave_id="216" monster_id="19" row_index="3" />
+<item  id="478" wave_id="217" monster_id="2" />
+<item  id="479" wave_id="217" monster_id="2" row_index="1" />
+<item  id="480" wave_id="218" monster_id="10" row_index="2" />
+<item  id="481" wave_id="218" monster_id="10" row_index="3" />
+<item  id="482" wave_id="219" monster_id="11" row_index="1" />
+<item  id="483" wave_id="219" monster_id="11" row_index="2" />
+<item  id="484" wave_id="220" monster_id="12" />
+<item  id="485" wave_id="220" monster_id="12" row_index="3" />
+<item  id="486" wave_id="221" monster_id="2" />
+<item  id="487" wave_id="221" monster_id="2" row_index="1" />
+<item  id="488" wave_id="221" monster_id="2" row_index="2" />
+<item  id="489" wave_id="221" monster_id="2" row_index="3" />
+<item  id="490" wave_id="222" monster_id="19" row_index="1" />
+<item  id="491" wave_id="222" monster_id="19" row_index="2" />
+<item  id="492" wave_id="223" monster_id="11" />
+<item  id="493" wave_id="223" monster_id="11" row_index="3" />
+<item  id="494" wave_id="224" monster_id="2" />
+<item  id="495" wave_id="224" monster_id="2" row_index="1" />
+<item  id="496" wave_id="224" monster_id="2" row_index="2" />
+<item  id="497" wave_id="224" monster_id="2" row_index="3" />
+<item  id="498" wave_id="225" monster_id="11" />
+<item  id="499" wave_id="225" monster_id="11" row_index="1" />
+<item  id="500" wave_id="225" monster_id="11" row_index="2" />
+<item  id="501" wave_id="225" monster_id="11" row_index="3" />
+<item  id="502" wave_id="226" monster_id="19" />
+<item  id="503" wave_id="226" monster_id="19" row_index="3" />
+<item  id="504" wave_id="227" monster_id="12" row_index="1" />
+<item  id="505" wave_id="227" monster_id="12" row_index="2" />
+<item  id="506" wave_id="228" monster_id="12" />
+<item  id="507" wave_id="228" monster_id="12" row_index="1" />
+<item  id="508" wave_id="228" monster_id="12" row_index="2" />
+<item  id="509" wave_id="228" monster_id="12" row_index="3" />
+<item  id="510" wave_id="229" monster_id="19" row_index="1" />
+<item  id="511" wave_id="229" monster_id="19" row_index="2" />
+<item  id="512" wave_id="230" monster_id="2" />
+<item  id="513" wave_id="230" monster_id="2" row_index="1" />
+<item  id="514" wave_id="230" monster_id="2" row_index="2" />
+<item  id="515" wave_id="230" monster_id="2" row_index="3" />
+<item  id="516" wave_id="231" monster_id="10" />
+<item  id="517" wave_id="231" monster_id="10" row_index="3" />
+<item  id="518" wave_id="232" monster_id="10" row_index="1" />
+<item  id="519" wave_id="232" monster_id="10" row_index="2" />
+<item  id="520" wave_id="233" monster_id="12" row_index="1" />
+<item  id="521" wave_id="233" monster_id="12" row_index="2" />
+<item  id="522" wave_id="234" monster_id="19" />
+<item  id="523" wave_id="234" monster_id="19" row_index="3" />
+<item  id="524" wave_id="235" monster_id="12" />
+<item  id="525" wave_id="235" monster_id="19" row_index="1" />
+<item  id="526" wave_id="235" monster_id="19" row_index="2" />
+<item  id="527" wave_id="235" monster_id="12" row_index="3" />
+<item  id="528" wave_id="236" monster_id="2" />
+<item  id="529" wave_id="236" monster_id="2" row_index="1" />
+<item  id="530" wave_id="237" monster_id="2" row_index="1" />
+<item  id="531" wave_id="237" monster_id="2" row_index="2" />
+<item  id="532" wave_id="238" monster_id="2" row_index="2" />
+<item  id="533" wave_id="238" monster_id="2" row_index="3" />
+<item  id="534" wave_id="239" monster_id="2" />
+<item  id="535" wave_id="239" monster_id="2" row_index="1" />
+<item  id="536" wave_id="239" monster_id="2" row_index="2" />
+<item  id="537" wave_id="239" monster_id="2" row_index="3" />
+<item  id="538" wave_id="240" monster_id="12" />
+<item  id="539" wave_id="240" monster_id="12" row_index="3" />
+<item  id="540" wave_id="241" monster_id="11" row_index="1" />
+<item  id="541" wave_id="241" monster_id="11" row_index="2" />
+<item  id="542" wave_id="242" monster_id="10" />
+<item  id="543" wave_id="242" monster_id="10" row_index="1" />
+<item  id="544" wave_id="242" monster_id="10" row_index="2" />
+<item  id="545" wave_id="242" monster_id="10" row_index="3" />
+<item  id="546" wave_id="243" monster_id="12" />
+<item  id="547" wave_id="243" monster_id="12" row_index="1" />
+<item  id="548" wave_id="244" monster_id="12" row_index="1" />
+<item  id="549" wave_id="244" monster_id="12" row_index="2" />
+<item  id="550" wave_id="245" monster_id="12" row_index="2" />
+<item  id="551" wave_id="245" monster_id="12" row_index="3" />
+<item  id="552" wave_id="246" monster_id="11" row_index="2" />
+<item  id="553" wave_id="246" monster_id="11" row_index="3" />
+<item  id="554" wave_id="247" monster_id="11" row_index="1" />
+<item  id="555" wave_id="247" monster_id="11" row_index="2" />
+<item  id="556" wave_id="248" monster_id="11" />
+<item  id="557" wave_id="248" monster_id="11" row_index="1" />
+<item  id="558" wave_id="249" monster_id="10" />
+<item  id="559" wave_id="249" monster_id="10" row_index="1" />
+<item  id="560" wave_id="249" monster_id="10" row_index="2" />
+<item  id="561" wave_id="249" monster_id="10" row_index="3" />
+<item  id="562" wave_id="250" monster_id="2" />
+<item  id="563" wave_id="250" monster_id="2" row_index="1" />
+<item  id="564" wave_id="250" monster_id="2" row_index="2" />
+<item  id="565" wave_id="250" monster_id="2" row_index="3" />
+<item  id="566" wave_id="251" monster_id="11" />
+<item  id="567" wave_id="251" monster_id="11" row_index="3" />
+<item  id="568" wave_id="252" monster_id="12" row_index="1" />
+<item  id="569" wave_id="252" monster_id="12" row_index="2" />
+<item  id="570" wave_id="253" monster_id="19" />
+<item  id="571" wave_id="253" monster_id="2" row_index="1" />
+<item  id="572" wave_id="253" monster_id="2" row_index="2" />
+<item  id="573" wave_id="253" monster_id="19" row_index="3" />
+<item  id="574" wave_id="254" monster_id="19" />
+<item  id="575" wave_id="254" monster_id="19" row_index="1" />
+<item  id="576" wave_id="255" monster_id="19" />
+<item  id="577" wave_id="255" monster_id="19" row_index="3" />
+<item  id="578" wave_id="256" monster_id="10" row_index="1" />
+<item  id="579" wave_id="256" monster_id="10" row_index="2" />
+<item  id="580" wave_id="257" monster_id="2" />
+<item  id="581" wave_id="257" monster_id="2" row_index="1" />
+<item  id="582" wave_id="257" monster_id="2" row_index="2" />
+<item  id="583" wave_id="257" monster_id="2" row_index="3" />
+<item  id="584" wave_id="258" monster_id="12" />
+<item  id="585" wave_id="258" monster_id="12" row_index="1" />
+<item  id="586" wave_id="259" monster_id="12" row_index="2" />
+<item  id="587" wave_id="260" monster_id="12" row_index="3" />
+<item  id="588" wave_id="261" monster_id="12" />
+<item  id="589" wave_id="261" monster_id="12" row_index="1" />
+<item  id="590" wave_id="262" monster_id="11" row_index="2" />
+<item  id="591" wave_id="262" monster_id="11" row_index="3" />
+<item  id="592" wave_id="263" monster_id="11" />
+<item  id="593" wave_id="263" monster_id="11" row_index="1" />
+<item  id="594" wave_id="264" monster_id="11" row_index="2" />
+<item  id="595" wave_id="264" monster_id="11" row_index="3" />
+<item  id="596" wave_id="265" monster_id="10" row_index="2" />
+<item  id="597" wave_id="265" monster_id="10" row_index="3" />
+<item  id="598" wave_id="266" monster_id="10" />
+<item  id="599" wave_id="266" monster_id="10" row_index="1" />
+<item  id="600" wave_id="267" monster_id="2" row_index="1" />
+<item  id="601" wave_id="267" monster_id="2" row_index="2" />
+<item  id="602" wave_id="268" monster_id="2" />
+<item  id="603" wave_id="268" monster_id="2" row_index="3" />
+<item  id="604" wave_id="269" monster_id="2" />
+<item  id="605" wave_id="269" monster_id="2" row_index="1" />
+<item  id="606" wave_id="269" monster_id="2" row_index="2" />
+<item  id="607" wave_id="269" monster_id="2" row_index="3" />
+<item  id="608" wave_id="270" monster_id="11" row_index="2" />
+<item  id="609" wave_id="270" monster_id="11" row_index="3" />
+<item  id="610" wave_id="271" monster_id="11" />
+<item  id="611" wave_id="271" monster_id="11" row_index="1" />
+<item  id="612" wave_id="272" monster_id="11" />
+<item  id="613" wave_id="272" monster_id="11" row_index="3" />
+<item  id="614" wave_id="273" monster_id="2" />
+<item  id="615" wave_id="273" monster_id="2" row_index="1" />
+<item  id="616" wave_id="273" monster_id="2" row_index="2" />
+<item  id="617" wave_id="273" monster_id="2" row_index="3" />
+<item  id="618" wave_id="274" monster_id="10" />
+<item  id="619" wave_id="274" monster_id="10" row_index="1" />
+<item  id="620" wave_id="275" monster_id="10" row_index="1" />
+<item  id="621" wave_id="275" monster_id="10" row_index="2" />
+<item  id="622" wave_id="276" monster_id="10" />
+<item  id="623" wave_id="276" monster_id="10" row_index="1" />
+<item  id="624" wave_id="276" monster_id="10" row_index="2" />
+<item  id="625" wave_id="276" monster_id="10" row_index="3" />
+<item  id="626" wave_id="277" monster_id="2" />
+<item  id="627" wave_id="277" monster_id="2" row_index="1" />
+<item  id="628" wave_id="277" monster_id="2" row_index="2" />
+<item  id="629" wave_id="277" monster_id="2" row_index="3" />
+<item  id="630" wave_id="278" monster_id="19" />
+<item  id="631" wave_id="278" monster_id="19" row_index="1" />
+<item  id="632" wave_id="278" monster_id="19" row_index="2" />
+<item  id="633" wave_id="279" monster_id="12" row_index="1" />
+<item  id="634" wave_id="279" monster_id="12" row_index="2" />
+<item  id="635" wave_id="279" monster_id="12" row_index="3" />
+<item  id="636" wave_id="280" monster_id="12" row_index="1" />
+<item  id="637" wave_id="280" monster_id="12" row_index="2" />
+<item  id="638" wave_id="281" monster_id="11" />
+<item  id="639" wave_id="281" monster_id="11" row_index="1" />
+<item  id="640" wave_id="281" monster_id="11" row_index="2" />
+<item  id="641" wave_id="281" monster_id="11" row_index="3" />
+<item  id="642" wave_id="282" monster_id="10" />
+<item  id="643" wave_id="282" monster_id="10" row_index="3" />
+<item  id="644" wave_id="283" monster_id="10" row_index="1" />
+<item  id="645" wave_id="283" monster_id="10" row_index="2" />
+<item  id="646" wave_id="284" monster_id="19" />
+<item  id="647" wave_id="284" monster_id="19" row_index="1" />
+<item  id="648" wave_id="285" monster_id="12" row_index="2" />
+<item  id="649" wave_id="285" monster_id="12" row_index="3" />
+<item  id="650" wave_id="286" monster_id="2" row_index="1" />
+<item  id="651" wave_id="286" monster_id="2" row_index="2" />
+<item  id="652" wave_id="287" monster_id="2" />
+<item  id="653" wave_id="287" monster_id="2" row_index="1" />
+<item  id="654" wave_id="287" monster_id="2" row_index="2" />
+<item  id="655" wave_id="287" monster_id="2" row_index="3" />
+<item  id="656" wave_id="288" monster_id="11" />
+<item  id="657" wave_id="288" monster_id="11" row_index="1" />
+<item  id="658" wave_id="289" monster_id="11" row_index="2" />
+<item  id="659" wave_id="289" monster_id="11" row_index="3" />
+<item  id="660" wave_id="290" monster_id="12" />
+<item  id="661" wave_id="290" monster_id="12" row_index="1" />
+<item  id="662" wave_id="291" monster_id="19" row_index="2" />
+<item  id="663" wave_id="291" monster_id="19" row_index="3" />
+<item  id="664" wave_id="292" monster_id="2" />
+<item  id="665" wave_id="292" monster_id="2" row_index="1" />
+<item  id="666" wave_id="292" monster_id="2" row_index="2" />
+<item  id="667" wave_id="292" monster_id="2" row_index="3" />
+<item  id="668" wave_id="293" monster_id="2" />
+<item  id="669" wave_id="293" monster_id="2" row_index="1" />
+<item  id="670" wave_id="294" monster_id="2" row_index="2" />
+<item  id="671" wave_id="294" monster_id="2" row_index="3" />
+<item  id="672" wave_id="295" monster_id="2" />
+<item  id="673" wave_id="295" monster_id="2" row_index="1" />
+<item  id="674" wave_id="295" monster_id="2" row_index="2" />
+<item  id="675" wave_id="295" monster_id="2" row_index="3" />
+<item  id="676" wave_id="296" monster_id="10" />
+<item  id="677" wave_id="296" monster_id="10" row_index="1" />
+<item  id="678" wave_id="296" monster_id="10" row_index="2" />
+<item  id="679" wave_id="296" monster_id="10" row_index="3" />
+<item  id="680" wave_id="297" monster_id="12" />
+<item  id="681" wave_id="297" monster_id="12" row_index="1" />
+<item  id="682" wave_id="298" monster_id="19" row_index="2" />
+<item  id="683" wave_id="299" monster_id="2" />
+<item  id="684" wave_id="299" monster_id="2" row_index="1" />
+<item  id="685" wave_id="299" monster_id="2" row_index="2" />
+<item  id="686" wave_id="299" monster_id="2" row_index="3" />
+<item  id="687" wave_id="300" monster_id="10" />
+<item  id="688" wave_id="300" monster_id="10" row_index="1" />
+<item  id="689" wave_id="301" monster_id="10" row_index="2" />
+<item  id="690" wave_id="301" monster_id="10" row_index="3" />
+<item  id="691" wave_id="302" monster_id="11" row_index="1" />
+<item  id="692" wave_id="302" monster_id="11" row_index="2" />
+<item  id="693" wave_id="303" monster_id="11" />
+<item  id="694" wave_id="303" monster_id="11" row_index="3" />
+<item  id="695" wave_id="304" monster_id="2" />
+<item  id="696" wave_id="304" monster_id="2" row_index="1" />
+<item  id="697" wave_id="304" monster_id="2" row_index="2" />
+<item  id="698" wave_id="304" monster_id="2" row_index="3" />
+<item  id="699" wave_id="305" monster_id="19" row_index="2" />
+<item  id="700" wave_id="306" monster_id="22" />
+<item  id="701" wave_id="307" monster_id="11" />
+<item  id="702" wave_id="307" monster_id="11" row_index="3" />
+<item  id="703" wave_id="308" monster_id="2" row_index="1" />
+<item  id="704" wave_id="308" monster_id="2" row_index="2" />
+<item  id="705" wave_id="309" monster_id="12" />
+<item  id="706" wave_id="309" monster_id="12" row_index="3" />
+<item  id="707" wave_id="310" monster_id="10" />
+<item  id="708" wave_id="310" monster_id="10" row_index="3" />
+<item  id="709" wave_id="311" monster_id="2" />
+<item  id="710" wave_id="311" monster_id="2" row_index="1" />
+<item  id="711" wave_id="311" monster_id="2" row_index="2" />
+<item  id="712" wave_id="311" monster_id="2" row_index="3" />
+<item  id="713" wave_id="312" monster_id="11" row_index="1" />
+<item  id="714" wave_id="312" monster_id="11" row_index="2" />
+<item  id="715" wave_id="313" monster_id="2" />
+<item  id="716" wave_id="313" monster_id="2" row_index="1" />
+<item  id="717" wave_id="313" monster_id="2" row_index="2" />
+<item  id="718" wave_id="313" monster_id="2" row_index="3" />
+<item  id="719" wave_id="314" monster_id="11" row_index="3" />
+<item  id="720" wave_id="315" monster_id="11" row_index="2" />
+<item  id="721" wave_id="316" monster_id="11" row_index="1" />
+<item  id="722" wave_id="317" monster_id="11" />
+<item  id="723" wave_id="318" monster_id="12" row_index="1" />
+<item  id="724" wave_id="319" monster_id="12" row_index="2" />
+<item  id="725" wave_id="320" monster_id="12" row_index="3" />
+<item  id="726" wave_id="321" monster_id="11" />
+<item  id="727" wave_id="321" monster_id="11" row_index="1" />
+<item  id="728" wave_id="321" monster_id="11" row_index="2" />
+<item  id="729" wave_id="321" monster_id="11" row_index="3" />
+<item  id="730" wave_id="322" monster_id="2" />
+<item  id="731" wave_id="322" monster_id="2" row_index="1" />
+<item  id="732" wave_id="322" monster_id="2" row_index="2" />
+<item  id="733" wave_id="322" monster_id="2" row_index="3" />
+<item  id="734" wave_id="323" monster_id="12" />
+<item  id="735" wave_id="323" monster_id="12" row_index="1" />
+<item  id="736" wave_id="324" monster_id="12" row_index="2" />
+<item  id="737" wave_id="324" monster_id="12" row_index="3" />
+<item  id="738" wave_id="325" monster_id="11" />
+<item  id="739" wave_id="325" monster_id="12" row_index="1" />
+<item  id="740" wave_id="325" monster_id="11" row_index="2" />
+<item  id="741" wave_id="325" monster_id="12" row_index="3" />
+<item  id="742" wave_id="326" monster_id="2" />
+<item  id="743" wave_id="326" monster_id="2" row_index="1" />
+<item  id="744" wave_id="327" monster_id="2" row_index="2" />
+<item  id="745" wave_id="327" monster_id="2" row_index="3" />
+<item  id="746" wave_id="328" monster_id="11" />
+<item  id="747" wave_id="328" monster_id="11" row_index="1" />
+<item  id="748" wave_id="329" monster_id="11" row_index="2" />
+<item  id="749" wave_id="329" monster_id="11" row_index="3" />
+<item  id="750" wave_id="330" monster_id="12" />
+<item  id="751" wave_id="330" monster_id="12" row_index="1" />
+<item  id="752" wave_id="331" monster_id="12" row_index="2" />
+<item  id="753" wave_id="331" monster_id="12" row_index="3" />
+<item  id="754" wave_id="332" monster_id="10" />
+<item  id="755" wave_id="332" monster_id="10" row_index="1" />
+<item  id="756" wave_id="332" monster_id="10" row_index="2" />
+<item  id="757" wave_id="332" monster_id="10" row_index="3" />
+<item  id="758" wave_id="333" monster_id="19" />
+<item  id="759" wave_id="333" monster_id="19" row_index="1" />
+<item  id="760" wave_id="334" monster_id="19" row_index="2" />
+<item  id="761" wave_id="334" monster_id="19" row_index="3" />
+<item  id="762" wave_id="335" monster_id="2" />
+<item  id="763" wave_id="335" monster_id="2" row_index="1" />
+<item  id="764" wave_id="336" monster_id="2" />
+<item  id="765" wave_id="336" monster_id="2" row_index="1" />
+<item  id="766" wave_id="336" monster_id="2" row_index="2" />
+<item  id="767" wave_id="336" monster_id="2" row_index="3" />
+<item  id="768" wave_id="337" monster_id="10" />
+<item  id="769" wave_id="337" monster_id="10" row_index="1" />
+<item  id="770" wave_id="337" monster_id="10" row_index="2" />
+<item  id="771" wave_id="337" monster_id="10" row_index="3" />
+<item  id="772" wave_id="338" monster_id="12" />
+<item  id="773" wave_id="339" monster_id="12" row_index="1" />
+<item  id="774" wave_id="339" monster_id="12" row_index="2" />
+<item  id="775" wave_id="340" monster_id="12" row_index="2" />
+<item  id="776" wave_id="340" monster_id="12" row_index="3" />
+<item  id="777" wave_id="341" monster_id="2" />
+<item  id="778" wave_id="341" monster_id="2" row_index="1" />
+<item  id="779" wave_id="341" monster_id="2" row_index="2" />
+<item  id="780" wave_id="341" monster_id="2" row_index="3" />
+<item  id="781" wave_id="342" monster_id="10" />
+<item  id="782" wave_id="342" monster_id="10" row_index="3" />
+<item  id="783" wave_id="343" monster_id="10" />
+<item  id="784" wave_id="343" monster_id="10" row_index="1" />
+<item  id="785" wave_id="343" monster_id="10" row_index="2" />
+<item  id="786" wave_id="343" monster_id="10" row_index="3" />
+<item  id="787" wave_id="344" monster_id="2" />
+<item  id="788" wave_id="344" monster_id="2" row_index="1" />
+<item  id="789" wave_id="344" monster_id="2" row_index="2" />
+<item  id="790" wave_id="344" monster_id="2" row_index="3" />
+<item  id="791" wave_id="345" monster_id="12" />
+<item  id="792" wave_id="346" monster_id="12" row_index="1" />
+<item  id="793" wave_id="347" monster_id="12" row_index="2" />
+<item  id="794" wave_id="348" monster_id="12" row_index="3" />
+<item  id="795" wave_id="349" monster_id="11" row_index="1" />
+<item  id="796" wave_id="349" monster_id="11" row_index="2" />
+<item  id="797" wave_id="350" monster_id="11" />
+<item  id="798" wave_id="350" monster_id="11" row_index="1" />
+<item  id="799" wave_id="351" monster_id="11" row_index="1" />
+<item  id="800" wave_id="351" monster_id="11" row_index="2" />
+<item  id="801" wave_id="351" monster_id="11" row_index="3" />
+<item  id="802" wave_id="352" monster_id="19" />
+<item  id="803" wave_id="352" monster_id="19" row_index="1" />
+<item  id="804" wave_id="352" monster_id="19" row_index="2" />
+<item  id="805" wave_id="352" monster_id="19" row_index="3" />
+<item  id="806" wave_id="353" monster_id="2" />
+<item  id="807" wave_id="353" monster_id="2" row_index="1" />
+<item  id="808" wave_id="353" monster_id="2" row_index="2" />
+<item  id="809" wave_id="353" monster_id="2" row_index="3" />
+<item  id="810" wave_id="354" monster_id="10" />
+<item  id="811" wave_id="354" monster_id="10" row_index="1" />
+<item  id="812" wave_id="355" monster_id="10" row_index="1" />
+<item  id="813" wave_id="355" monster_id="10" row_index="2" />
+<item  id="814" wave_id="356" monster_id="10" row_index="2" />
+<item  id="815" wave_id="356" monster_id="10" row_index="3" />
+<item  id="816" wave_id="357" monster_id="12" />
+<item  id="817" wave_id="357" monster_id="12" row_index="1" />
+<item  id="818" wave_id="358" monster_id="12" row_index="1" />
+<item  id="819" wave_id="358" monster_id="12" row_index="2" />
+<item  id="820" wave_id="359" monster_id="12" row_index="2" />
+<item  id="821" wave_id="359" monster_id="12" row_index="3" />
+<item  id="822" wave_id="360" monster_id="11" />
+<item  id="823" wave_id="360" monster_id="11" row_index="1" />
+<item  id="824" wave_id="360" monster_id="11" row_index="2" />
+<item  id="825" wave_id="360" monster_id="11" row_index="3" />
+<item  id="826" wave_id="361" monster_id="19" row_index="2" />
+<item  id="827" wave_id="361" monster_id="19" row_index="3" />
+<item  id="828" wave_id="362" monster_id="2" />
+<item  id="829" wave_id="362" monster_id="2" row_index="3" />
+<item  id="830" wave_id="363" monster_id="12" />
+<item  id="831" wave_id="363" monster_id="12" row_index="1" />
+<item  id="832" wave_id="363" monster_id="12" row_index="2" />
+<item  id="833" wave_id="363" monster_id="12" row_index="3" />
+<item  id="834" wave_id="364" monster_id="2" />
+<item  id="835" wave_id="364" monster_id="2" row_index="1" />
+<item  id="836" wave_id="365" monster_id="2" row_index="2" />
+<item  id="837" wave_id="365" monster_id="2" row_index="3" />
+<item  id="838" wave_id="366" monster_id="2" />
+<item  id="839" wave_id="366" monster_id="2" row_index="1" />
+<item  id="840" wave_id="367" monster_id="2" row_index="2" />
+<item  id="841" wave_id="367" monster_id="2" row_index="3" />
+<item  id="842" wave_id="368" monster_id="12" />
+<item  id="843" wave_id="368" monster_id="12" row_index="1" />
+<item  id="844" wave_id="369" monster_id="12" row_index="1" />
+<item  id="845" wave_id="369" monster_id="12" row_index="2" />
+<item  id="846" wave_id="370" monster_id="12" row_index="2" />
+<item  id="847" wave_id="370" monster_id="12" row_index="3" />
+<item  id="848" wave_id="371" monster_id="11" />
+<item  id="849" wave_id="371" monster_id="11" row_index="1" />
+<item  id="850" wave_id="371" monster_id="11" row_index="2" />
+<item  id="851" wave_id="371" monster_id="11" row_index="3" />
+<item  id="852" wave_id="372" monster_id="10" />
+<item  id="853" wave_id="372" monster_id="10" row_index="1" />
+<item  id="854" wave_id="373" monster_id="10" row_index="2" />
+<item  id="855" wave_id="373" monster_id="10" row_index="3" />
+<item  id="856" wave_id="374" monster_id="10" />
+<item  id="857" wave_id="374" monster_id="10" row_index="1" />
+<item  id="858" wave_id="375" monster_id="2" />
+<item  id="859" wave_id="375" monster_id="2" row_index="1" />
+<item  id="860" wave_id="375" monster_id="2" row_index="2" />
+<item  id="861" wave_id="376" monster_id="2" row_index="1" />
+<item  id="862" wave_id="376" monster_id="2" row_index="2" />
+<item  id="863" wave_id="376" monster_id="2" row_index="3" />
+<item  id="864" wave_id="377" monster_id="19" />
+<item  id="865" wave_id="377" monster_id="19" row_index="3" />
+<item  id="866" wave_id="378" monster_id="2" row_index="1" />
+<item  id="867" wave_id="378" monster_id="2" row_index="2" />
+<item  id="868" wave_id="379" monster_id="2" />
+<item  id="869" wave_id="379" monster_id="2" row_index="1" />
+<item  id="870" wave_id="379" monster_id="2" row_index="2" />
+<item  id="871" wave_id="380" monster_id="2" row_index="1" />
+<item  id="872" wave_id="380" monster_id="2" row_index="2" />
+<item  id="873" wave_id="380" monster_id="2" row_index="3" />
+<item  id="874" wave_id="381" monster_id="2" />
+<item  id="875" wave_id="381" monster_id="2" row_index="1" />
+<item  id="876" wave_id="381" monster_id="2" row_index="2" />
+<item  id="877" wave_id="382" monster_id="11" />
+<item  id="878" wave_id="382" monster_id="11" row_index="1" />
+<item  id="879" wave_id="382" monster_id="11" row_index="2" />
+<item  id="880" wave_id="382" monster_id="11" row_index="3" />
+<item  id="881" wave_id="383" monster_id="11" />
+<item  id="882" wave_id="383" monster_id="11" row_index="2" />
+<item  id="883" wave_id="284" monster_id="11" row_index="1" />
+<item  id="884" wave_id="384" monster_id="11" row_index="3" />
+<item  id="885" wave_id="385" monster_id="2" row_index="1" />
+<item  id="886" wave_id="385" monster_id="2" row_index="3" />
+<item  id="887" wave_id="386" monster_id="2" />
+<item  id="888" wave_id="386" monster_id="2" row_index="2" />
+<item  id="889" wave_id="387" monster_id="19" />
+<item  id="890" wave_id="387" monster_id="19" row_index="1" />
+<item  id="891" wave_id="387" monster_id="19" row_index="2" />
+<item  id="892" wave_id="387" monster_id="19" row_index="3" />
+<item  id="893" wave_id="388" monster_id="12" />
+<item  id="894" wave_id="388" monster_id="12" row_index="3" />
+<item  id="895" wave_id="389" monster_id="12" row_index="1" />
+<item  id="896" wave_id="389" monster_id="12" row_index="2" />
+<item  id="897" wave_id="390" monster_id="11" />
+<item  id="898" wave_id="390" monster_id="11" row_index="1" />
+<item  id="899" wave_id="391" monster_id="11" />
+<item  id="900" wave_id="391" monster_id="11" row_index="1" />
+<item  id="901" wave_id="392" monster_id="10" />
+<item  id="902" wave_id="392" monster_id="10" row_index="1" />
+<item  id="903" wave_id="392" monster_id="10" row_index="2" />
+<item  id="904" wave_id="393" monster_id="10" row_index="1" />
+<item  id="905" wave_id="393" monster_id="10" row_index="2" />
+<item  id="906" wave_id="393" monster_id="10" row_index="3" />
+<item  id="907" wave_id="394" monster_id="12" />
+<item  id="908" wave_id="394" monster_id="12" row_index="1" />
+<item  id="909" wave_id="394" monster_id="12" row_index="2" />
+<item  id="910" wave_id="394" monster_id="12" row_index="3" />
+<item  id="911" wave_id="395" monster_id="19" />
+<item  id="912" wave_id="395" monster_id="19" row_index="1" />
+<item  id="913" wave_id="395" monster_id="19" row_index="2" />
+<item  id="914" wave_id="395" monster_id="19" row_index="3" />
+<item  id="915" wave_id="396" monster_id="11" />
+<item  id="916" wave_id="396" monster_id="11" row_index="1" />
+<item  id="917" wave_id="396" monster_id="11" row_index="2" />
+<item  id="918" wave_id="396" monster_id="11" row_index="3" />
+<item  id="919" wave_id="397" monster_id="2" row_index="1" />
+<item  id="920" wave_id="397" monster_id="2" row_index="2" />
+<item  id="921" wave_id="398" monster_id="1" />
+<item  id="922" wave_id="398" monster_id="2" row_index="1" />
+<item  id="923" wave_id="399" monster_id="11" row_index="1" />
+<item  id="924" wave_id="399" monster_id="11" row_index="2" />
+<item  id="925" wave_id="400" monster_id="12" />
+<item  id="926" wave_id="400" monster_id="12" row_index="1" />
+<item  id="927" wave_id="400" monster_id="12" row_index="2" />
+<item  id="928" wave_id="400" monster_id="12" row_index="3" />
+<item  id="929" wave_id="401" monster_id="19" />
+<item  id="930" wave_id="401" monster_id="19" row_index="1" />
+<item  id="931" wave_id="401" monster_id="19" row_index="3" />
+<item  id="932" wave_id="402" monster_id="12" />
+<item  id="933" wave_id="402" monster_id="12" row_index="1" />
+<item  id="934" wave_id="402" monster_id="12" row_index="2" />
+<item  id="935" wave_id="402" monster_id="12" row_index="3" />
+<item  id="936" wave_id="403" monster_id="12" row_index="1" />
+<item  id="937" wave_id="403" monster_id="12" row_index="2" />
+<item  id="938" wave_id="404" monster_id="11" />
+<item  id="939" wave_id="404" monster_id="11" row_index="3" />
+<item  id="940" wave_id="405" monster_id="10" />
+<item  id="941" wave_id="405" monster_id="10" row_index="1" />
+<item  id="942" wave_id="405" monster_id="10" row_index="2" />
+<item  id="943" wave_id="405" monster_id="10" row_index="3" />
+<item  id="944" wave_id="406" monster_id="2" />
+<item  id="945" wave_id="406" monster_id="2" row_index="1" />
+<item  id="946" wave_id="406" monster_id="2" row_index="2" />
+<item  id="947" wave_id="406" monster_id="2" row_index="3" />
+<item  id="948" wave_id="407" monster_id="2" />
+<item  id="949" wave_id="407" monster_id="2" row_index="1" />
+<item  id="950" wave_id="407" monster_id="2" row_index="2" />
+<item  id="951" wave_id="407" monster_id="2" row_index="3" />
+<item  id="952" wave_id="408" monster_id="10" row_index="2" />
+<item  id="953" wave_id="408" monster_id="10" row_index="3" />
+<item  id="954" wave_id="409" monster_id="10" />
+<item  id="955" wave_id="409" monster_id="10" row_index="1" />
+<item  id="956" wave_id="410" monster_id="10" row_index="1" />
+<item  id="957" wave_id="410" monster_id="11" row_index="2" />
+<item  id="958" wave_id="411" monster_id="12" />
+<item  id="959" wave_id="411" monster_id="11" row_index="1" />
+<item  id="960" wave_id="412" monster_id="11" row_index="2" />
+<item  id="961" wave_id="413" monster_id="10" row_index="3" />
+<item  id="962" wave_id="414" monster_id="11" />
+<item  id="963" wave_id="414" monster_id="19" row_index="1" />
+<item  id="964" wave_id="414" monster_id="19" row_index="2" />
+<item  id="965" wave_id="415" monster_id="12" row_index="1" />
+<item  id="966" wave_id="415" monster_id="11" row_index="2" />
+<item  id="967" wave_id="415" monster_id="19" row_index="3" />
+<item  id="968" wave_id="416" monster_id="19" />
+<item  id="969" wave_id="416" monster_id="19" row_index="1" />
+<item  id="970" wave_id="416" monster_id="19" row_index="2" />
+<item  id="971" wave_id="416" monster_id="19" row_index="3" />
+<item  id="972" wave_id="417" monster_id="12" />
+<item  id="973" wave_id="417" monster_id="12" row_index="3" />
+<item  id="974" wave_id="418" monster_id="19" />
+<item  id="975" wave_id="418" monster_id="19" row_index="1" />
+<item  id="976" wave_id="418" monster_id="19" row_index="2" />
+<item  id="977" wave_id="418" monster_id="19" row_index="3" />
+<item  id="978" wave_id="419" monster_id="19" />
+<item  id="979" wave_id="420" monster_id="23" row_index="2" />
+<item  id="980" wave_id="421" monster_id="19" />
+<item  id="981" wave_id="421" monster_id="12" row_index="1" />
+<item  id="982" wave_id="421" monster_id="11" row_index="2" />
+<item  id="983" wave_id="421" monster_id="10" row_index="3" />
+<item  id="984" wave_id="422" monster_id="19" />
+<item  id="985" wave_id="423" monster_id="21" row_index="1" />
+<item  id="986" wave_id="424" monster_id="22" row_index="2" />
+<item  id="987" wave_id="425" monster_id="23" row_index="3" />
+<item  id="988" wave_id="426" monster_id="18" />
+<item  id="989" wave_id="427" monster_id="19" row_index="1" />
+</wavemonster>
+<copywave>
+<item  id="1" copy_id="1" copy_wave_index="1" copy_wave_time="2" />
+<item  id="2" copy_id="1" copy_wave_index="2" copy_wave_time="5" />
+<item  id="3" copy_id="1" copy_wave_index="3" copy_wave_time="11" />
+<item  id="4" copy_id="1" copy_wave_index="4" copy_wave_time="13" />
+<item  id="5" copy_id="1" copy_wave_index="5" copy_wave_time="25" />
+<item  id="6" copy_id="2" copy_wave_index="1" copy_wave_time="2" />
+<item  id="7" copy_id="2" copy_wave_index="2" copy_wave_time="5" />
+<item  id="8" copy_id="2" copy_wave_index="3" copy_wave_time="8" />
+<item  id="9" copy_id="2" copy_wave_index="4" copy_wave_time="11" />
+<item  id="10" copy_id="2" copy_wave_index="5" copy_wave_time="14" />
+<item  id="11" copy_id="2" copy_wave_index="6" copy_wave_time="20" />
+<item  id="12" copy_id="2" copy_wave_index="7" copy_wave_time="26" />
+<item  id="13" copy_id="2" copy_wave_index="8" copy_wave_time="32" />
+<item  id="14" copy_id="2" copy_wave_index="9" copy_wave_time="38" />
+<item  id="15" copy_id="2" copy_wave_index="10" copy_wave_time="41" />
+<item  id="16" copy_id="2" copy_wave_index="11" copy_wave_time="43" />
+<item  id="17" copy_id="2" copy_wave_index="12" copy_wave_time="49" />
+<item  id="18" copy_id="2" copy_wave_index="13" copy_wave_time="55" />
+<item  id="19" copy_id="2" copy_wave_index="14" copy_wave_time="61" />
+<item  id="20" copy_id="2" copy_wave_index="15" copy_wave_time="73" />
+<item  id="21" copy_id="2" copy_wave_index="16" copy_wave_time="85" />
+<item  id="22" copy_id="2" copy_wave_index="17" copy_wave_time="91" />
+<item  id="23" copy_id="2" copy_wave_index="18" copy_wave_time="97" />
+<item  id="24" copy_id="3" copy_wave_index="1" copy_wave_time="2" />
+<item  id="25" copy_id="3" copy_wave_index="2" copy_wave_time="8" />
+<item  id="26" copy_id="3" copy_wave_index="3" copy_wave_time="14" />
+<item  id="27" copy_id="3" copy_wave_index="4" copy_wave_time="21" />
+<item  id="28" copy_id="3" copy_wave_index="5" copy_wave_time="24" />
+<item  id="29" copy_id="3" copy_wave_index="6" copy_wave_time="27" />
+<item  id="30" copy_id="3" copy_wave_index="7" copy_wave_time="30" />
+<item  id="31" copy_id="3" copy_wave_index="8" copy_wave_time="33" />
+<item  id="32" copy_id="3" copy_wave_index="9" copy_wave_time="39" />
+<item  id="33" copy_id="3" copy_wave_index="10" copy_wave_time="45" />
+<item  id="34" copy_id="3" copy_wave_index="11" copy_wave_time="51" />
+<item  id="35" copy_id="3" copy_wave_index="12" copy_wave_time="57" />
+<item  id="36" copy_id="3" copy_wave_index="13" copy_wave_time="63" />
+<item  id="37" copy_id="3" copy_wave_index="14" copy_wave_time="69" />
+<item  id="38" copy_id="3" copy_wave_index="15" copy_wave_time="81" />
+<item  id="39" copy_id="3" copy_wave_index="16" copy_wave_time="87" />
+<item  id="40" copy_id="3" copy_wave_index="17" copy_wave_time="99" />
+<item  id="41" copy_id="3" copy_wave_index="18" copy_wave_time="105" />
+<item  id="42" copy_id="4" copy_wave_index="1" copy_wave_time="2" />
+<item  id="43" copy_id="4" copy_wave_index="2" copy_wave_time="8" />
+<item  id="44" copy_id="4" copy_wave_index="3" copy_wave_time="14" />
+<item  id="45" copy_id="4" copy_wave_index="4" copy_wave_time="20" />
+<item  id="46" copy_id="4" copy_wave_index="5" copy_wave_time="26" />
+<item  id="47" copy_id="4" copy_wave_index="6" copy_wave_time="32" />
+<item  id="48" copy_id="4" copy_wave_index="7" copy_wave_time="38" />
+<item  id="49" copy_id="4" copy_wave_index="8" copy_wave_time="44" />
+<item  id="50" copy_id="4" copy_wave_index="9" copy_wave_time="50" />
+<item  id="51" copy_id="4" copy_wave_index="10" copy_wave_time="56" />
+<item  id="52" copy_id="4" copy_wave_index="11" copy_wave_time="62" />
+<item  id="53" copy_id="4" copy_wave_index="12" copy_wave_time="74" />
+<item  id="54" copy_id="4" copy_wave_index="13" copy_wave_time="86" />
+<item  id="55" copy_id="4" copy_wave_index="14" copy_wave_time="98" />
+<item  id="56" copy_id="4" copy_wave_index="15" copy_wave_time="110" />
+<item  id="57" copy_id="4" copy_wave_index="16" copy_wave_time="122" />
+<item  id="58" copy_id="4" copy_wave_index="17" copy_wave_time="134" />
+<item  id="59" copy_id="4" copy_wave_index="18" copy_wave_time="146" />
+<item  id="60" copy_id="5" copy_wave_index="1" copy_wave_time="2" />
+<item  id="61" copy_id="5" copy_wave_index="2" copy_wave_time="8" />
+<item  id="62" copy_id="5" copy_wave_index="3" copy_wave_time="14" />
+<item  id="63" copy_id="5" copy_wave_index="4" copy_wave_time="20" />
+<item  id="64" copy_id="5" copy_wave_index="5" copy_wave_time="26" />
+<item  id="65" copy_id="5" copy_wave_index="6" copy_wave_time="32" />
+<item  id="66" copy_id="5" copy_wave_index="7" copy_wave_time="36" />
+<item  id="67" copy_id="5" copy_wave_index="8" copy_wave_time="42" />
+<item  id="68" copy_id="5" copy_wave_index="9" copy_wave_time="48" />
+<item  id="69" copy_id="5" copy_wave_index="10" copy_wave_time="54" />
+<item  id="70" copy_id="5" copy_wave_index="11" copy_wave_time="60" />
+<item  id="71" copy_id="5" copy_wave_index="12" copy_wave_time="72" />
+<item  id="72" copy_id="5" copy_wave_index="13" copy_wave_time="84" />
+<item  id="73" copy_id="5" copy_wave_index="14" copy_wave_time="96" />
+<item  id="74" copy_id="5" copy_wave_index="15" copy_wave_time="108" />
+<item  id="75" copy_id="5" copy_wave_index="16" copy_wave_time="120" />
+<item  id="76" copy_id="5" copy_wave_index="17" copy_wave_time="132" />
+<item  id="77" copy_id="5" copy_wave_index="18" copy_wave_time="144" />
+<item  id="78" copy_id="5" copy_wave_index="19" copy_wave_time="156" />
+<item  id="79" copy_id="6" copy_wave_index="1" copy_wave_time="2" />
+<item  id="80" copy_id="6" copy_wave_index="2" copy_wave_time="5" />
+<item  id="81" copy_id="6" copy_wave_index="3" copy_wave_time="8" />
+<item  id="82" copy_id="6" copy_wave_index="4" copy_wave_time="11" />
+<item  id="83" copy_id="6" copy_wave_index="5" copy_wave_time="14" />
+<item  id="84" copy_id="6" copy_wave_index="6" copy_wave_time="21" />
+<item  id="85" copy_id="6" copy_wave_index="7" copy_wave_time="33" />
+<item  id="86" copy_id="6" copy_wave_index="8" copy_wave_time="45" />
+<item  id="87" copy_id="6" copy_wave_index="9" copy_wave_time="60" />
+<item  id="88" copy_id="6" copy_wave_index="10" copy_wave_time="72" />
+<item  id="89" copy_id="6" copy_wave_index="11" copy_wave_time="84" />
+<item  id="90" copy_id="7" copy_wave_index="1" copy_wave_time="2" />
+<item  id="91" copy_id="7" copy_wave_index="2" copy_wave_time="8" />
+<item  id="92" copy_id="7" copy_wave_index="3" copy_wave_time="20" />
+<item  id="93" copy_id="7" copy_wave_index="4" copy_wave_time="26" />
+<item  id="94" copy_id="7" copy_wave_index="5" copy_wave_time="36" />
+<item  id="95" copy_id="7" copy_wave_index="6" copy_wave_time="45" />
+<item  id="96" copy_id="7" copy_wave_index="7" copy_wave_time="51" />
+<item  id="97" copy_id="7" copy_wave_index="8" copy_wave_time="60" />
+<item  id="98" copy_id="7" copy_wave_index="9" copy_wave_time="66" />
+<item  id="99" copy_id="7" copy_wave_index="10" copy_wave_time="81" />
+<item  id="100" copy_id="7" copy_wave_index="11" copy_wave_time="93" />
+<item  id="101" copy_id="7" copy_wave_index="12" copy_wave_time="102" />
+<item  id="102" copy_id="7" copy_wave_index="13" copy_wave_time="111" />
+<item  id="103" copy_id="7" copy_wave_index="14" copy_wave_time="123" />
+<item  id="104" copy_id="7" copy_wave_index="15" copy_wave_time="132" />
+<item  id="105" copy_id="7" copy_wave_index="16" copy_wave_time="141" />
+<item  id="106" copy_id="7" copy_wave_index="17" copy_wave_time="153" />
+<item  id="107" copy_id="7" copy_wave_index="18" copy_wave_time="159" />
+<item  id="108" copy_id="8" copy_wave_index="1" copy_wave_time="2" />
+<item  id="109" copy_id="8" copy_wave_index="2" copy_wave_time="5" />
+<item  id="110" copy_id="8" copy_wave_index="3" copy_wave_time="8" />
+<item  id="111" copy_id="8" copy_wave_index="4" copy_wave_time="11" />
+<item  id="112" copy_id="8" copy_wave_index="5" copy_wave_time="13" />
+<item  id="113" copy_id="8" copy_wave_index="6" copy_wave_time="19" />
+<item  id="114" copy_id="8" copy_wave_index="7" copy_wave_time="25" />
+<item  id="115" copy_id="8" copy_wave_index="8" copy_wave_time="31" />
+<item  id="116" copy_id="8" copy_wave_index="9" copy_wave_time="40" />
+<item  id="117" copy_id="8" copy_wave_index="10" copy_wave_time="49" />
+<item  id="118" copy_id="8" copy_wave_index="11" copy_wave_time="64" />
+<item  id="119" copy_id="8" copy_wave_index="12" copy_wave_time="70" />
+<item  id="120" copy_id="8" copy_wave_index="13" copy_wave_time="76" />
+<item  id="121" copy_id="8" copy_wave_index="14" copy_wave_time="82" />
+<item  id="122" copy_id="8" copy_wave_index="15" copy_wave_time="91" />
+<item  id="123" copy_id="8" copy_wave_index="16" copy_wave_time="100" />
+<item  id="124" copy_id="8" copy_wave_index="17" copy_wave_time="112" />
+<item  id="125" copy_id="8" copy_wave_index="18" copy_wave_time="124" />
+<item  id="126" copy_id="8" copy_wave_index="19" copy_wave_time="139" />
+<item  id="127" copy_id="9" copy_wave_index="1" copy_wave_time="2" />
+<item  id="128" copy_id="9" copy_wave_index="2" copy_wave_time="8" />
+<item  id="129" copy_id="9" copy_wave_index="3" copy_wave_time="14" />
+<item  id="130" copy_id="9" copy_wave_index="4" copy_wave_time="20" />
+<item  id="131" copy_id="9" copy_wave_index="5" copy_wave_time="26" />
+<item  id="132" copy_id="9" copy_wave_index="6" copy_wave_time="38" />
+<item  id="133" copy_id="9" copy_wave_index="7" copy_wave_time="40" />
+<item  id="134" copy_id="9" copy_wave_index="8" copy_wave_time="52" />
+<item  id="135" copy_id="9" copy_wave_index="9" copy_wave_time="60" />
+<item  id="136" copy_id="9" copy_wave_index="10" copy_wave_time="78" />
+<item  id="137" copy_id="9" copy_wave_index="11" copy_wave_time="86" />
+<item  id="138" copy_id="9" copy_wave_index="12" copy_wave_time="104" />
+<item  id="139" copy_id="9" copy_wave_index="13" copy_wave_time="128" />
+<item  id="140" copy_id="9" copy_wave_index="14" copy_wave_time="134" />
+<item  id="141" copy_id="9" copy_wave_index="15" copy_wave_time="152" />
+<item  id="142" copy_id="9" copy_wave_index="16" copy_wave_time="170" />
+<item  id="143" copy_id="9" copy_wave_index="17" copy_wave_time="188" />
+<item  id="144" copy_id="9" copy_wave_index="18" copy_wave_time="206" />
+<item  id="145" copy_id="9" copy_wave_index="19" copy_wave_time="230" />
+<item  id="146" copy_id="10" copy_wave_index="1" copy_wave_time="2" />
+<item  id="147" copy_id="10" copy_wave_index="2" copy_wave_time="6" />
+<item  id="148" copy_id="10" copy_wave_index="3" copy_wave_time="10" />
+<item  id="149" copy_id="10" copy_wave_index="4" copy_wave_time="14" />
+<item  id="150" copy_id="10" copy_wave_index="5" copy_wave_time="18" />
+<item  id="151" copy_id="10" copy_wave_index="6" copy_wave_time="27" />
+<item  id="152" copy_id="10" copy_wave_index="7" copy_wave_time="36" />
+<item  id="153" copy_id="10" copy_wave_index="8" copy_wave_time="45" />
+<item  id="154" copy_id="10" copy_wave_index="9" copy_wave_time="58" />
+<item  id="155" copy_id="10" copy_wave_index="10" copy_wave_time="71" />
+<item  id="156" copy_id="10" copy_wave_index="11" copy_wave_time="84" />
+<item  id="157" copy_id="10" copy_wave_index="12" copy_wave_time="97" />
+<item  id="158" copy_id="10" copy_wave_index="13" copy_wave_time="115" />
+<item  id="159" copy_id="10" copy_wave_index="14" copy_wave_time="130" />
+<item  id="160" copy_id="10" copy_wave_index="15" copy_wave_time="142" />
+<item  id="161" copy_id="10" copy_wave_index="16" copy_wave_time="154" />
+<item  id="162" copy_id="10" copy_wave_index="17" copy_wave_time="166" />
+<item  id="163" copy_id="10" copy_wave_index="18" copy_wave_time="178" />
+<item  id="164" copy_id="10" copy_wave_index="19" copy_wave_time="196" />
+<item  id="165" copy_id="11" copy_wave_index="1" copy_wave_time="2" />
+<item  id="166" copy_id="11" copy_wave_index="2" copy_wave_time="6" />
+<item  id="167" copy_id="11" copy_wave_index="3" copy_wave_time="12" />
+<item  id="168" copy_id="11" copy_wave_index="4" copy_wave_time="16" />
+<item  id="169" copy_id="11" copy_wave_index="5" copy_wave_time="22" />
+<item  id="170" copy_id="11" copy_wave_index="6" copy_wave_time="32" />
+<item  id="171" copy_id="11" copy_wave_index="7" copy_wave_time="42" />
+<item  id="172" copy_id="11" copy_wave_index="8" copy_wave_time="52" />
+<item  id="173" copy_id="11" copy_wave_index="9" copy_wave_time="64" />
+<item  id="174" copy_id="11" copy_wave_index="10" copy_wave_time="82" />
+<item  id="175" copy_id="11" copy_wave_index="11" copy_wave_time="95" />
+<item  id="176" copy_id="11" copy_wave_index="12" copy_wave_time="113" />
+<item  id="177" copy_id="11" copy_wave_index="13" copy_wave_time="131" />
+<item  id="178" copy_id="11" copy_wave_index="14" copy_wave_time="155" />
+<item  id="179" copy_id="11" copy_wave_index="15" copy_wave_time="161" />
+<item  id="180" copy_id="11" copy_wave_index="16" copy_wave_time="176" />
+<item  id="181" copy_id="11" copy_wave_index="17" copy_wave_time="189" />
+<item  id="182" copy_id="11" copy_wave_index="18" copy_wave_time="207" />
+<item  id="183" copy_id="11" copy_wave_index="19" copy_wave_time="220" />
+<item  id="184" copy_id="11" copy_wave_index="20" copy_wave_time="238" />
+<item  id="185" copy_id="11" copy_wave_index="21" copy_wave_time="256" />
+<item  id="186" copy_id="11" copy_wave_index="22" copy_wave_time="268" />
+<item  id="187" copy_id="12" copy_wave_index="1" copy_wave_time="2" />
+<item  id="188" copy_id="12" copy_wave_index="2" copy_wave_time="17" />
+<item  id="189" copy_id="12" copy_wave_index="3" copy_wave_time="23" />
+<item  id="190" copy_id="12" copy_wave_index="4" copy_wave_time="35" />
+<item  id="191" copy_id="12" copy_wave_index="5" copy_wave_time="48" />
+<item  id="192" copy_id="12" copy_wave_index="6" copy_wave_time="66" />
+<item  id="193" copy_id="12" copy_wave_index="7" copy_wave_time="81" />
+<item  id="194" copy_id="12" copy_wave_index="8" copy_wave_time="93" />
+<item  id="195" copy_id="12" copy_wave_index="9" copy_wave_time="105" />
+<item  id="196" copy_id="12" copy_wave_index="10" copy_wave_time="117" />
+<item  id="197" copy_id="12" copy_wave_index="11" copy_wave_time="130" />
+<item  id="198" copy_id="13" copy_wave_index="1" copy_wave_time="2" />
+<item  id="199" copy_id="13" copy_wave_index="2" copy_wave_time="8" />
+<item  id="200" copy_id="13" copy_wave_index="3" copy_wave_time="15" />
+<item  id="201" copy_id="13" copy_wave_index="4" copy_wave_time="24" />
+<item  id="202" copy_id="13" copy_wave_index="5" copy_wave_time="32" />
+<item  id="203" copy_id="13" copy_wave_index="6" copy_wave_time="50" />
+<item  id="204" copy_id="13" copy_wave_index="7" copy_wave_time="65" />
+<item  id="205" copy_id="13" copy_wave_index="8" copy_wave_time="71" />
+<item  id="206" copy_id="13" copy_wave_index="9" copy_wave_time="77" />
+<item  id="207" copy_id="13" copy_wave_index="10" copy_wave_time="89" />
+<item  id="208" copy_id="13" copy_wave_index="11" copy_wave_time="101" />
+<item  id="209" copy_id="13" copy_wave_index="12" copy_wave_time="113" />
+<item  id="210" copy_id="13" copy_wave_index="13" copy_wave_time="125" />
+<item  id="211" copy_id="13" copy_wave_index="14" copy_wave_time="143" />
+<item  id="212" copy_id="13" copy_wave_index="15" copy_wave_time="155" />
+<item  id="213" copy_id="13" copy_wave_index="16" copy_wave_time="167" />
+<item  id="214" copy_id="13" copy_wave_index="17" copy_wave_time="173" />
+<item  id="215" copy_id="13" copy_wave_index="18" copy_wave_time="179" />
+<item  id="216" copy_id="13" copy_wave_index="19" copy_wave_time="185" />
+<item  id="217" copy_id="14" copy_wave_index="1" copy_wave_time="2" />
+<item  id="218" copy_id="14" copy_wave_index="2" copy_wave_time="8" />
+<item  id="219" copy_id="14" copy_wave_index="3" copy_wave_time="14" />
+<item  id="220" copy_id="14" copy_wave_index="4" copy_wave_time="20" />
+<item  id="221" copy_id="14" copy_wave_index="5" copy_wave_time="32" />
+<item  id="222" copy_id="14" copy_wave_index="6" copy_wave_time="44" />
+<item  id="223" copy_id="14" copy_wave_index="7" copy_wave_time="59" />
+<item  id="224" copy_id="14" copy_wave_index="8" copy_wave_time="74" />
+<item  id="225" copy_id="14" copy_wave_index="9" copy_wave_time="86" />
+<item  id="226" copy_id="14" copy_wave_index="10" copy_wave_time="104" />
+<item  id="227" copy_id="14" copy_wave_index="11" copy_wave_time="119" />
+<item  id="228" copy_id="14" copy_wave_index="12" copy_wave_time="131" />
+<item  id="229" copy_id="14" copy_wave_index="13" copy_wave_time="155" />
+<item  id="230" copy_id="14" copy_wave_index="14" copy_wave_time="170" />
+<item  id="231" copy_id="14" copy_wave_index="15" copy_wave_time="182" />
+<item  id="232" copy_id="14" copy_wave_index="16" copy_wave_time="186" />
+<item  id="233" copy_id="14" copy_wave_index="17" copy_wave_time="192" />
+<item  id="234" copy_id="14" copy_wave_index="18" copy_wave_time="204" />
+<item  id="235" copy_id="14" copy_wave_index="19" copy_wave_time="219" />
+<item  id="236" copy_id="15" copy_wave_index="1" copy_wave_time="2" />
+<item  id="237" copy_id="15" copy_wave_index="2" copy_wave_time="8" />
+<item  id="238" copy_id="15" copy_wave_index="3" copy_wave_time="14" />
+<item  id="239" copy_id="15" copy_wave_index="4" copy_wave_time="20" />
+<item  id="240" copy_id="15" copy_wave_index="5" copy_wave_time="32" />
+<item  id="241" copy_id="15" copy_wave_index="6" copy_wave_time="44" />
+<item  id="242" copy_id="15" copy_wave_index="7" copy_wave_time="53" />
+<item  id="243" copy_id="15" copy_wave_index="8" copy_wave_time="65" />
+<item  id="244" copy_id="15" copy_wave_index="9" copy_wave_time="77" />
+<item  id="245" copy_id="15" copy_wave_index="10" copy_wave_time="89" />
+<item  id="246" copy_id="15" copy_wave_index="11" copy_wave_time="101" />
+<item  id="247" copy_id="15" copy_wave_index="12" copy_wave_time="110" />
+<item  id="248" copy_id="15" copy_wave_index="13" copy_wave_time="119" />
+<item  id="249" copy_id="15" copy_wave_index="14" copy_wave_time="128" />
+<item  id="250" copy_id="15" copy_wave_index="15" copy_wave_time="140" />
+<item  id="251" copy_id="15" copy_wave_index="16" copy_wave_time="152" />
+<item  id="252" copy_id="15" copy_wave_index="17" copy_wave_time="161" />
+<item  id="253" copy_id="15" copy_wave_index="18" copy_wave_time="173" />
+<item  id="254" copy_id="15" copy_wave_index="19" copy_wave_time="190" />
+<item  id="255" copy_id="16" copy_wave_index="1" copy_wave_time="2" />
+<item  id="256" copy_id="16" copy_wave_index="2" copy_wave_time="17" />
+<item  id="257" copy_id="16" copy_wave_index="3" copy_wave_time="23" />
+<item  id="258" copy_id="16" copy_wave_index="4" copy_wave_time="35" />
+<item  id="259" copy_id="16" copy_wave_index="5" copy_wave_time="37" />
+<item  id="260" copy_id="16" copy_wave_index="6" copy_wave_time="44" />
+<item  id="261" copy_id="16" copy_wave_index="7" copy_wave_time="53" />
+<item  id="262" copy_id="16" copy_wave_index="8" copy_wave_time="65" />
+<item  id="263" copy_id="16" copy_wave_index="9" copy_wave_time="77" />
+<item  id="264" copy_id="16" copy_wave_index="10" copy_wave_time="89" />
+<item  id="265" copy_id="16" copy_wave_index="11" copy_wave_time="101" />
+<item  id="266" copy_id="16" copy_wave_index="12" copy_wave_time="110" />
+<item  id="267" copy_id="16" copy_wave_index="13" copy_wave_time="119" />
+<item  id="268" copy_id="16" copy_wave_index="14" copy_wave_time="128" />
+<item  id="269" copy_id="16" copy_wave_index="15" copy_wave_time="140" />
+<item  id="270" copy_id="16" copy_wave_index="16" copy_wave_time="152" />
+<item  id="271" copy_id="16" copy_wave_index="17" copy_wave_time="161" />
+<item  id="272" copy_id="16" copy_wave_index="18" copy_wave_time="173" />
+<item  id="273" copy_id="16" copy_wave_index="19" copy_wave_time="190" />
+<item  id="274" copy_id="17" copy_wave_index="1" copy_wave_time="2" />
+<item  id="275" copy_id="17" copy_wave_index="2" copy_wave_time="8" />
+<item  id="276" copy_id="17" copy_wave_index="3" copy_wave_time="14" />
+<item  id="277" copy_id="17" copy_wave_index="4" copy_wave_time="26" />
+<item  id="278" copy_id="17" copy_wave_index="5" copy_wave_time="38" />
+<item  id="279" copy_id="17" copy_wave_index="6" copy_wave_time="60" />
+<item  id="280" copy_id="17" copy_wave_index="7" copy_wave_time="78" />
+<item  id="281" copy_id="17" copy_wave_index="8" copy_wave_time="90" />
+<item  id="282" copy_id="17" copy_wave_index="9" copy_wave_time="102" />
+<item  id="283" copy_id="17" copy_wave_index="10" copy_wave_time="108" />
+<item  id="284" copy_id="17" copy_wave_index="11" copy_wave_time="116" />
+<item  id="285" copy_id="17" copy_wave_index="12" copy_wave_time="131" />
+<item  id="286" copy_id="17" copy_wave_index="13" copy_wave_time="143" />
+<item  id="287" copy_id="17" copy_wave_index="14" copy_wave_time="149" />
+<item  id="288" copy_id="17" copy_wave_index="15" copy_wave_time="161" />
+<item  id="289" copy_id="17" copy_wave_index="16" copy_wave_time="170" />
+<item  id="290" copy_id="17" copy_wave_index="17" copy_wave_time="179" />
+<item  id="291" copy_id="17" copy_wave_index="18" copy_wave_time="191" />
+<item  id="292" copy_id="17" copy_wave_index="19" copy_wave_time="205" />
+<item  id="293" copy_id="18" copy_wave_index="1" copy_wave_time="2" />
+<item  id="294" copy_id="18" copy_wave_index="2" copy_wave_time="8" />
+<item  id="295" copy_id="18" copy_wave_index="3" copy_wave_time="14" />
+<item  id="296" copy_id="18" copy_wave_index="4" copy_wave_time="26" />
+<item  id="297" copy_id="18" copy_wave_index="5" copy_wave_time="38" />
+<item  id="298" copy_id="18" copy_wave_index="6" copy_wave_time="50" />
+<item  id="299" copy_id="18" copy_wave_index="7" copy_wave_time="57" />
+<item  id="300" copy_id="18" copy_wave_index="8" copy_wave_time="69" />
+<item  id="301" copy_id="18" copy_wave_index="9" copy_wave_time="75" />
+<item  id="302" copy_id="18" copy_wave_index="10" copy_wave_time="81" />
+<item  id="303" copy_id="18" copy_wave_index="11" copy_wave_time="90" />
+<item  id="304" copy_id="18" copy_wave_index="12" copy_wave_time="99" />
+<item  id="305" copy_id="18" copy_wave_index="13" copy_wave_time="111" />
+<item  id="306" copy_id="18" copy_wave_index="14" copy_wave_time="117" />
+<item  id="307" copy_id="19" copy_wave_index="1" copy_wave_time="2" />
+<item  id="308" copy_id="19" copy_wave_index="2" copy_wave_time="11" />
+<item  id="309" copy_id="19" copy_wave_index="3" copy_wave_time="17" />
+<item  id="310" copy_id="19" copy_wave_index="4" copy_wave_time="29" />
+<item  id="311" copy_id="19" copy_wave_index="5" copy_wave_time="35" />
+<item  id="312" copy_id="19" copy_wave_index="6" copy_wave_time="47" />
+<item  id="313" copy_id="19" copy_wave_index="7" copy_wave_time="56" />
+<item  id="314" copy_id="19" copy_wave_index="8" copy_wave_time="68" />
+<item  id="315" copy_id="19" copy_wave_index="9" copy_wave_time="72" />
+<item  id="316" copy_id="19" copy_wave_index="10" copy_wave_time="76" />
+<item  id="317" copy_id="19" copy_wave_index="11" copy_wave_time="80" />
+<item  id="318" copy_id="19" copy_wave_index="12" copy_wave_time="84" />
+<item  id="319" copy_id="19" copy_wave_index="13" copy_wave_time="90" />
+<item  id="320" copy_id="19" copy_wave_index="14" copy_wave_time="96" />
+<item  id="321" copy_id="19" copy_wave_index="15" copy_wave_time="102" />
+<item  id="322" copy_id="19" copy_wave_index="16" copy_wave_time="120" />
+<item  id="323" copy_id="19" copy_wave_index="17" copy_wave_time="132" />
+<item  id="324" copy_id="19" copy_wave_index="18" copy_wave_time="144" />
+<item  id="325" copy_id="19" copy_wave_index="19" copy_wave_time="156" />
+<item  id="326" copy_id="20" copy_wave_index="1" copy_wave_time="2" />
+<item  id="327" copy_id="20" copy_wave_index="2" copy_wave_time="8" />
+<item  id="328" copy_id="20" copy_wave_index="3" copy_wave_time="14" />
+<item  id="329" copy_id="20" copy_wave_index="4" copy_wave_time="22" />
+<item  id="330" copy_id="20" copy_wave_index="5" copy_wave_time="31" />
+<item  id="331" copy_id="20" copy_wave_index="6" copy_wave_time="43" />
+<item  id="332" copy_id="20" copy_wave_index="7" copy_wave_time="55" />
+<item  id="333" copy_id="20" copy_wave_index="8" copy_wave_time="67" />
+<item  id="334" copy_id="20" copy_wave_index="9" copy_wave_time="82" />
+<item  id="335" copy_id="20" copy_wave_index="10" copy_wave_time="97" />
+<item  id="336" copy_id="20" copy_wave_index="11" copy_wave_time="103" />
+<item  id="337" copy_id="20" copy_wave_index="12" copy_wave_time="115" />
+<item  id="338" copy_id="20" copy_wave_index="13" copy_wave_time="127" />
+<item  id="339" copy_id="20" copy_wave_index="14" copy_wave_time="133" />
+<item  id="340" copy_id="20" copy_wave_index="15" copy_wave_time="145" />
+<item  id="341" copy_id="20" copy_wave_index="16" copy_wave_time="157" />
+<item  id="342" copy_id="20" copy_wave_index="17" copy_wave_time="169" />
+<item  id="343" copy_id="20" copy_wave_index="18" copy_wave_time="175" />
+<item  id="344" copy_id="20" copy_wave_index="19" copy_wave_time="187" />
+<item  id="345" copy_id="21" copy_wave_index="1" copy_wave_time="2" />
+<item  id="346" copy_id="21" copy_wave_index="2" copy_wave_time="8" />
+<item  id="347" copy_id="21" copy_wave_index="3" copy_wave_time="14" />
+<item  id="348" copy_id="21" copy_wave_index="4" copy_wave_time="20" />
+<item  id="349" copy_id="21" copy_wave_index="5" copy_wave_time="26" />
+<item  id="350" copy_id="21" copy_wave_index="6" copy_wave_time="35" />
+<item  id="351" copy_id="21" copy_wave_index="7" copy_wave_time="44" />
+<item  id="352" copy_id="21" copy_wave_index="8" copy_wave_time="46" />
+<item  id="353" copy_id="21" copy_wave_index="9" copy_wave_time="76" />
+<item  id="354" copy_id="21" copy_wave_index="10" copy_wave_time="88" />
+<item  id="355" copy_id="21" copy_wave_index="11" copy_wave_time="94" />
+<item  id="356" copy_id="21" copy_wave_index="12" copy_wave_time="100" />
+<item  id="357" copy_id="21" copy_wave_index="13" copy_wave_time="106" />
+<item  id="358" copy_id="21" copy_wave_index="14" copy_wave_time="118" />
+<item  id="359" copy_id="21" copy_wave_index="15" copy_wave_time="130" />
+<item  id="360" copy_id="21" copy_wave_index="16" copy_wave_time="144" />
+<item  id="361" copy_id="21" copy_wave_index="17" copy_wave_time="162" />
+<item  id="362" copy_id="21" copy_wave_index="18" copy_wave_time="177" />
+<item  id="363" copy_id="21" copy_wave_index="19" copy_wave_time="183" />
+<item  id="364" copy_id="22" copy_wave_index="1" copy_wave_time="3" />
+<item  id="365" copy_id="22" copy_wave_index="2" copy_wave_time="8" />
+<item  id="366" copy_id="22" copy_wave_index="3" copy_wave_time="14" />
+<item  id="367" copy_id="22" copy_wave_index="4" copy_wave_time="20" />
+<item  id="368" copy_id="22" copy_wave_index="5" copy_wave_time="26" />
+<item  id="369" copy_id="22" copy_wave_index="6" copy_wave_time="38" />
+<item  id="370" copy_id="22" copy_wave_index="7" copy_wave_time="50" />
+<item  id="371" copy_id="22" copy_wave_index="8" copy_wave_time="62" />
+<item  id="372" copy_id="22" copy_wave_index="9" copy_wave_time="80" />
+<item  id="373" copy_id="22" copy_wave_index="10" copy_wave_time="86" />
+<item  id="374" copy_id="22" copy_wave_index="11" copy_wave_time="92" />
+<item  id="375" copy_id="22" copy_wave_index="12" copy_wave_time="98" />
+<item  id="376" copy_id="22" copy_wave_index="13" copy_wave_time="108" />
+<item  id="377" copy_id="22" copy_wave_index="14" copy_wave_time="117" />
+<item  id="378" copy_id="22" copy_wave_index="15" copy_wave_time="132" />
+<item  id="379" copy_id="22" copy_wave_index="16" copy_wave_time="144" />
+<item  id="380" copy_id="22" copy_wave_index="17" copy_wave_time="153" />
+<item  id="381" copy_id="22" copy_wave_index="18" copy_wave_time="162" />
+<item  id="382" copy_id="22" copy_wave_index="19" copy_wave_time="171" />
+<item  id="383" copy_id="23" copy_wave_index="1" copy_wave_time="2" />
+<item  id="384" copy_id="23" copy_wave_index="2" copy_wave_time="11" />
+<item  id="385" copy_id="23" copy_wave_index="3" copy_wave_time="20" />
+<item  id="386" copy_id="23" copy_wave_index="4" copy_wave_time="26" />
+<item  id="387" copy_id="23" copy_wave_index="5" copy_wave_time="32" />
+<item  id="388" copy_id="23" copy_wave_index="6" copy_wave_time="62" />
+<item  id="389" copy_id="23" copy_wave_index="7" copy_wave_time="74" />
+<item  id="390" copy_id="23" copy_wave_index="8" copy_wave_time="86" />
+<item  id="391" copy_id="23" copy_wave_index="9" copy_wave_time="95" />
+<item  id="392" copy_id="23" copy_wave_index="10" copy_wave_time="104" />
+<item  id="393" copy_id="23" copy_wave_index="11" copy_wave_time="113" />
+<item  id="394" copy_id="23" copy_wave_index="12" copy_wave_time="122" />
+<item  id="395" copy_id="23" copy_wave_index="13" copy_wave_time="146" />
+<item  id="396" copy_id="23" copy_wave_index="14" copy_wave_time="174" />
+<item  id="397" copy_id="23" copy_wave_index="15" copy_wave_time="194" />
+<item  id="398" copy_id="23" copy_wave_index="16" copy_wave_time="200" />
+<item  id="399" copy_id="23" copy_wave_index="17" copy_wave_time="206" />
+<item  id="400" copy_id="23" copy_wave_index="18" copy_wave_time="215" />
+<item  id="401" copy_id="23" copy_wave_index="19" copy_wave_time="239" />
+<item  id="402" copy_id="24" copy_wave_index="1" copy_wave_time="2" />
+<item  id="403" copy_id="24" copy_wave_index="2" copy_wave_time="26" />
+<item  id="404" copy_id="24" copy_wave_index="3" copy_wave_time="38" />
+<item  id="405" copy_id="24" copy_wave_index="4" copy_wave_time="47" />
+<item  id="406" copy_id="24" copy_wave_index="5" copy_wave_time="59" />
+<item  id="407" copy_id="24" copy_wave_index="6" copy_wave_time="71" />
+<item  id="408" copy_id="24" copy_wave_index="7" copy_wave_time="83" />
+<item  id="409" copy_id="24" copy_wave_index="8" copy_wave_time="89" />
+<item  id="410" copy_id="24" copy_wave_index="9" copy_wave_time="95" />
+<item  id="411" copy_id="24" copy_wave_index="10" copy_wave_time="101" />
+<item  id="412" copy_id="24" copy_wave_index="11" copy_wave_time="111" />
+<item  id="413" copy_id="24" copy_wave_index="12" copy_wave_time="115" />
+<item  id="414" copy_id="24" copy_wave_index="13" copy_wave_time="118" />
+<item  id="415" copy_id="24" copy_wave_index="14" copy_wave_time="136" />
+<item  id="416" copy_id="24" copy_wave_index="15" copy_wave_time="154" />
+<item  id="417" copy_id="24" copy_wave_index="16" copy_wave_time="184" />
+<item  id="418" copy_id="24" copy_wave_index="17" copy_wave_time="196" />
+<item  id="419" copy_id="24" copy_wave_index="18" copy_wave_time="226" />
+<item  id="420" copy_id="24" copy_wave_index="19" copy_wave_time="232" />
+<item  id="421" copy_id="26" copy_wave_index="1" copy_wave_time="1" />
+<item  id="422" copy_id="26" copy_wave_index="2" copy_wave_time="5" />
+<item  id="423" copy_id="26" copy_wave_index="3" copy_wave_time="10" />
+<item  id="424" copy_id="26" copy_wave_index="4" copy_wave_time="15" />
+<item  id="425" copy_id="26" copy_wave_index="5" copy_wave_time="20" />
+</copywave>
+<spriteskill>
+<item  id="1" name="火球" desp="击中怪物造成伤害 并且造成持续伤害" consume="120" cool_time="10" group="1" action_type="1" power="100" tex1="skill_fire_ball.png" tex2="skill_fire_ball.png" />
+<item  id="2" name="火墙" desp="击中怪物造成伤害 并且造成持续伤害" consume="60" cool_time="20" action_type="3" power="50" status1="1" tex1="skill_fire_wall.png" tex2="skill_fire_wall.png" />
+<item  id="3" name="陨石" desp="击晕　伤害　持续伤害" consume="15" cool_time="30" group="1" action_type="1" power="50" status1="1" status2="2" tex1="skill_meteorolite.png" tex2="skill_meteorolite.png" />
+<item  id="4" name="金柠檬" desp="击晕" consume="10" cool_time="10" action_type="4" status1="2" tex1="skill_meteorolite.png" tex2="skill_meteorolite.png" />
+<item  id="5" name="大金柠檬" desp="击晕好久" consume="15" cool_time="15" action_type="4" status1="3" tex1="skill_meteorolite.png" tex2="skill_meteorolite.png" />
+<item  id="6" name="盾" desp="释放盾，来减免怪物伤害" consume="60" cool_time="10" action_type="6" status1="9" tex1="skill_defence.png" tex2="skill_defence.png" />
+<item  id="7" name="大盾" desp="释放盾，来减免怪物伤害" consume="10" cool_time="15" action_type="5" status1="10" tex1="skill_defence.png" tex2="skill_defence.png" />
+<item  id="8" name="刺盾" desp="释放盾，来减免怪物伤害、且定时攻击怪物" consume="15" cool_time="15" action_type="6" status1="10" status2="1" tex1="skill_defence.png" tex2="skill_defence.png" />
+<item  id="9" name="回复" desp="回血500" consume="180" cool_time="20" action_type="7" recovery="1000" tex1="skill_recovery.png" tex2="skill_recovery.png" />
+<item  id="10" name="大回复" desp="加血200" consume="15" cool_time="30" action_type="7" recovery="200" tex1="skill_recovery.png" tex2="skill_recovery.png" />
+<item  id="11" name="扰乱" desp="回头５秒" consume="16" cool_time="30" action_type="8" status1="4" tex1="skill_recovery.png" tex2="skill_recovery.png" />
+<item  id="12" name="混乱" desp="混乱攻击５秒" consume="17" cool_time="30" action_type="9" status1="5" tex1="skill_recovery.png" tex2="skill_recovery.png" />
+<item  id="14" name="迷乱" desp="变成我方" consume="18" cool_time="30" action_type="9" status1="6" tex1="skill_recovery.png" tex2="skill_recovery.png" />
+<item  id="15" name="冰" desp="经过减速" consume="60" cool_time="5" group="1" action_type="10" status1="11" tex1="skill_ice.png" tex2="skill_ice.png" />
+<item  id="16" name="刺冰" desp="减速并且受伤" consume="20" cool_time="30" action_type="11" status1="11" status2="1" tex1="skill_atk_ice.png" tex2="skill_atk_ice.png" />
+<item  id="17" name="兴奋" desp="增加攻击力" consume="10" cool_time="20" action_type="12" status1="7" />
+<item  id="18" name="大兴奋" desp="增加攻击力" consume="15" cool_time="20" action_type="12" status1="8" />
+</spriteskill>
+<spriteskillstatus>
+<item  id="1" type="1" />
+<item  id="2" type="2" param1="10" />
+<item  id="3" type="2" param1="15" />
+<item  id="4" type="6" param1="5" />
+<item  id="5" type="7" param1="5" />
+<item  id="6" type="7" param1="-1" />
+<item  id="7" type="3" param1="10" param2="1" />
+<item  id="8" type="3" param1="10" param2="2" />
+<item  id="9" type="4" param1="10" />
+<item  id="10" type="4" param1="8" />
+<item  id="11" type="5" param1="10" param2="50" />
+</spriteskillstatus>
+<statustype>
+<item  id="1" name="伤害" desp="每隔一段时间减指定hp值" />
+<item  id="2" name="晕眩" desp="中该状态者会暂停一切动作" />
+<item  id="3" name="兴奋" desp="增加攻击力" />
+<item  id="4" name="防御" desp="减免敌方的伤害" />
+<item  id="5" name="冰" desp="经过减速" />
+<item  id="6" name="回头" desp="回头多少时间" />
+<item  id="7" name="混乱" desp="变成我方的人" />
+</statustype>
+<prop>
+<item  id="1" name="放大镜" desp="给予玩家提示" texture="prop_tip.png" price="100" />
+<item  id="2" name="能量" desp="给予玩家1000能量" texture="prop_energy.png" param="60" price="500" />
+<item  id="3" name="刷新" desp="棋盘刷新" texture="prop_refresh.png" price="500" />
+<item  id="4" name="万能蘑菇" desp="棋盘上随机选择一个珠子变为蘑菇" texture="prop_mushroom.png" price="1000" />
+</prop>
+<copyprop>
+<item  id="1" copy_id="1" prop_id="1" prop_num="5" />
+<item  id="2" copy_id="1" prop_id="2" prop_num="5" />
+<item  id="3" copy_id="1" prop_id="3" prop_num="5" />
+<item  id="4" copy_id="1" prop_id="4" prop_num="5" />
+<item  id="5" copy_id="7" prop_id="2" prop_num="5" />
+</copyprop>
+<copyskill>
+<item  id="1" copy_id="1" skill_id="15" />
+<item  id="2" copy_id="1" skill_id="6" />
+<item  id="3" copy_id="1" skill_id="1" />
+<item  id="4" copy_id="1" skill_id="9" />
+<item  id="5" copy_id="2" skill_id="15" />
+<item  id="6" copy_id="2" skill_id="6" />
+<item  id="7" copy_id="2" skill_id="1" />
+<item  id="8" copy_id="2" skill_id="9" />
+<item  id="9" copy_id="3" skill_id="15" />
+<item  id="10" copy_id="3" skill_id="6" />
+<item  id="11" copy_id="3" skill_id="1" />
+<item  id="12" copy_id="3" skill_id="9" />
+<item  id="13" copy_id="4" skill_id="15" />
+<item  id="14" copy_id="4" skill_id="6" />
+<item  id="15" copy_id="4" skill_id="1" />
+<item  id="16" copy_id="4" skill_id="9" />
+<item  id="17" copy_id="5" skill_id="15" />
+<item  id="18" copy_id="5" skill_id="6" />
+<item  id="19" copy_id="5" skill_id="1" />
+<item  id="20" copy_id="5" skill_id="9" />
+<item  id="21" copy_id="6" skill_id="15" />
+<item  id="22" copy_id="6" skill_id="6" />
+<item  id="23" copy_id="6" skill_id="1" />
+<item  id="24" copy_id="6" skill_id="9" />
+<item  id="25" copy_id="7" skill_id="15" />
+<item  id="26" copy_id="7" skill_id="6" />
+<item  id="27" copy_id="7" skill_id="1" />
+<item  id="28" copy_id="7" skill_id="9" />
+<item  id="29" copy_id="8" skill_id="15" />
+<item  id="30" copy_id="8" skill_id="6" />
+<item  id="31" copy_id="8" skill_id="1" />
+<item  id="32" copy_id="8" skill_id="9" />
+<item  id="33" copy_id="9" skill_id="15" />
+<item  id="34" copy_id="9" skill_id="6" />
+<item  id="35" copy_id="9" skill_id="1" />
+<item  id="36" copy_id="9" skill_id="9" />
+<item  id="37" copy_id="10" skill_id="15" />
+<item  id="38" copy_id="10" skill_id="6" />
+<item  id="39" copy_id="10" skill_id="1" />
+<item  id="40" copy_id="10" skill_id="9" />
+<item  id="41" copy_id="11" skill_id="15" />
+<item  id="42" copy_id="11" skill_id="6" />
+<item  id="43" copy_id="11" skill_id="1" />
+<item  id="44" copy_id="11" skill_id="9" />
+<item  id="45" copy_id="12" skill_id="15" />
+<item  id="46" copy_id="12" skill_id="6" />
+<item  id="47" copy_id="12" skill_id="1" />
+<item  id="48" copy_id="12" skill_id="9" />
+<item  id="49" copy_id="13" skill_id="15" />
+<item  id="50" copy_id="13" skill_id="6" />
+<item  id="51" copy_id="13" skill_id="1" />
+<item  id="52" copy_id="13" skill_id="9" />
+<item  id="53" copy_id="14" skill_id="15" />
+<item  id="54" copy_id="14" skill_id="6" />
+<item  id="55" copy_id="14" skill_id="1" />
+<item  id="56" copy_id="14" skill_id="9" />
+<item  id="57" copy_id="15" skill_id="15" />
+<item  id="58" copy_id="15" skill_id="6" />
+<item  id="59" copy_id="15" skill_id="1" />
+<item  id="60" copy_id="15" skill_id="9" />
+<item  id="61" copy_id="16" skill_id="15" />
+<item  id="62" copy_id="16" skill_id="6" />
+<item  id="63" copy_id="16" skill_id="1" />
+<item  id="64" copy_id="16" skill_id="9" />
+<item  id="65" copy_id="17" skill_id="15" />
+<item  id="66" copy_id="17" skill_id="6" />
+<item  id="67" copy_id="17" skill_id="1" />
+<item  id="68" copy_id="17" skill_id="9" />
+<item  id="69" copy_id="18" skill_id="15" />
+<item  id="70" copy_id="18" skill_id="6" />
+<item  id="71" copy_id="18" skill_id="1" />
+<item  id="72" copy_id="18" skill_id="9" />
+<item  id="73" copy_id="19" skill_id="15" />
+<item  id="74" copy_id="19" skill_id="6" />
+<item  id="75" copy_id="19" skill_id="1" />
+<item  id="76" copy_id="19" skill_id="9" />
+<item  id="77" copy_id="20" skill_id="15" />
+<item  id="78" copy_id="20" skill_id="6" />
+<item  id="79" copy_id="20" skill_id="1" />
+<item  id="80" copy_id="20" skill_id="9" />
+<item  id="81" copy_id="21" skill_id="15" />
+<item  id="82" copy_id="21" skill_id="6" />
+<item  id="83" copy_id="21" skill_id="1" />
+<item  id="84" copy_id="21" skill_id="9" />
+<item  id="85" copy_id="22" skill_id="15" />
+<item  id="86" copy_id="22" skill_id="6" />
+<item  id="87" copy_id="22" skill_id="1" />
+<item  id="88" copy_id="22" skill_id="9" />
+<item  id="89" copy_id="23" skill_id="15" />
+<item  id="90" copy_id="23" skill_id="6" />
+<item  id="91" copy_id="23" skill_id="1" />
+<item  id="92" copy_id="23" skill_id="9" />
+<item  id="93" copy_id="24" skill_id="15" />
+<item  id="94" copy_id="24" skill_id="6" />
+<item  id="95" copy_id="24" skill_id="1" />
+<item  id="96" copy_id="24" skill_id="9" />
+<item  id="97" copy_id="25" skill_id="15" />
+<item  id="98" copy_id="25" skill_id="6" />
+<item  id="99" copy_id="25" skill_id="1" />
+<item  id="100" copy_id="25" skill_id="9" />
+<item  id="101" copy_id="26" skill_id="15" />
+</copyskill>
+<shop>
+<item  id="1" prop_id="1" num="5" price="100" />
+<item  id="2" prop_id="2" num="10" price="500" />
+<item  id="3" prop_id="3" num="5" price="500" />
+<item  id="4" prop_id="4" num="10" price="1000" />
+</shop>
+<monsterSkill>
+<item  id="1" name="谢谢" desp="谢谢" cool_time="10" tex1="shit1.png" tex2="shit2.png" aggression="800" />
+<item  id="2" name="大火球" desp="大火球爆炸" cool_time="10" tex1="shit1.png" tex2="shit2.png" aggression="800" />
+<item  id="3" name="召唤群狼" desp="召唤出两只狼" cool_time="10" callMonsterId="24" aggression="800" />
+<item  id="4" name="盖亚能量炮" desp="攻击栅栏" cool_time="10" aggression="800" />
+<item  id="5" name="旋转攻击" desp="旋转攻击栅栏" cool_time="10" tex1="m_ss_rotate(1).png" tex2="m_ss_rotate(2).png" aggression="800" />
+<item  id="6" name="蓄力攻击" desp="蓄力攻击栅栏" cool_time="10" aggression="800" />
+<item  id="7" name="召唤怪撞墙" cool_time="10" aggression="800" />
+</monsterSkill>
+</basedata>

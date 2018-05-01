@@ -1,0 +1,116 @@
+﻿生成启动时间为 2013/8/22 9:52:19。
+     1>项目“E:\0821出版本\trunk\extensions\proj.win32\libExtensions.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release.win32\libExtensions.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release.win32\libExtensions.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /I"E:\0821出版本\trunk\extensions\proj.win32\..\..\external\chipmunk\include\chipmunk" /I"E:\0821出版本\trunk\extensions\proj.win32\..\..\external\sqlite3\include" /I"E:\0821出版本\trunk\extensions\proj.win32\..\..\external" /I"E:\0821出版本\trunk\extensions\proj.win32\..\..\cocos2dx" /I"E:\0821出版本\trunk\extensions\proj.win32\..\..\cocos2dx\include" /I"E:\0821出版本\trunk\extensions\proj.win32\..\..\cocos2dx\kazmath\include" /I"E:\0821出版本\trunk\extensions\proj.win32\..\..\cocos2dx\platform\win32" /I"E:\0821出版本\trunk\extensions\proj.win32\..\..\cocos2dx\platform\third_party\win32" /I"E:\0821出版本\trunk\extensions\proj.win32\..\..\cocos2dx\platform\third_party\win32\pthread" /I"E:\0821出版本\trunk\extensions\proj.win32\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"E:\0821出版本\trunk\extensions\proj.win32\..\..\cocos2dx\platform\third_party\win32\zlib" /I"E:\0821出版本\trunk\extensions\proj.win32\..\..\CocosDenshion\include" /I..\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _LIB /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\AssetsManager\AssetsManager.cpp ..\CCBReader\CCBAnimationManager.cpp ..\CCBReader\CCBFileLoader.cpp ..\CCBReader\CCBKeyframe.cpp ..\CCBReader\CCBReader.cpp ..\CCBReader\CCBSequence.cpp ..\CCBReader\CCBSequenceProperty.cpp ..\CCBReader\CCBValue.cpp ..\CCBReader\CCControlButtonLoader.cpp ..\CCBReader\CCControlLoader.cpp ..\CCBReader\CCData.cpp ..\CCBReader\CCLabelBMFontLoader.cpp ..\CCBReader\CCLabelTTFLoader.cpp ..\CCBReader\CCLayerColorLoader.cpp ..\CCBReader\CCLayerGradientLoader.cpp ..\CCBReader\CCLayerLoader.cpp ..\CCBReader\CCMenuItemImageLoader.cpp ..\CCBReader\CCMenuItemLoader.cpp ..\CCBReader\CCNode+CCBRelativePositioning.cpp ..\CCBReader\CCNodeLoader.cpp ..\CCBReader\CCNodeLoaderLibrary.cpp ..\CCBReader\CCParticleSystemQuadLoader.cpp ..\CCBReader\CCScale9SpriteLoader.cpp ..\CCBReader\CCScrollViewLoader.cpp ..\CCBReader\CCSpriteLoader.cpp ..\GUI\CCControlExtension\CCControl.cpp ..\GUI\CCControlExtension\CCControlButton.cpp ..\GUI\CCControlExtension\CCControlColourPicker.cpp ..\GUI\CCControlExtension\CCControlHuePicker.cpp ..\GUI\CCControlExtension\CCControlPotentiometer.cpp ..\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.cpp ..\GUI\CCControlExtension\CCControlSlider.cpp ..\GUI\CCControlExtension\CCControlStepper.cpp ..\GUI\CCControlExtension\CCControlSwitch.cpp ..\GUI\CCControlExtension\CCControlUtils.cpp ..\GUI\CCControlExtension\CCInvocation.cpp ..\GUI\CCControlExtension\CCScale9Sprite.cpp ..\GUI\CCEditBox\CCEditBox.cpp ..\GUI\CCEditBox\CCEditBoxImplWin.cpp ..\GUI\CCScrollView\CCScrollView.cpp ..\GUI\CCScrollView\CCSorting.cpp ..\GUI\CCScrollView\CCTableView.cpp ..\GUI\CCScrollView\CCTableViewCell.cpp ..\LocalStorage\LocalStorage.cpp ..\network\HttpClient.cpp ..\physics_nodes\CCPhysicsDebugNode.cpp ..\physics_nodes\CCPhysicsSprite.cpp Win32InputBox.cpp
+         AssetsManager.cpp
+         CCBAnimationManager.cpp
+         CCBFileLoader.cpp
+         CCBKeyframe.cpp
+         CCBReader.cpp
+         CCBSequence.cpp
+         CCBSequenceProperty.cpp
+         CCBValue.cpp
+         CCControlButtonLoader.cpp
+         CCControlLoader.cpp
+         CCData.cpp
+         CCLabelBMFontLoader.cpp
+         CCLabelTTFLoader.cpp
+         CCLayerColorLoader.cpp
+         CCLayerGradientLoader.cpp
+         CCLayerLoader.cpp
+         CCMenuItemImageLoader.cpp
+         CCMenuItemLoader.cpp
+         CCNode+CCBRelativePositioning.cpp
+         CCNodeLoader.cpp
+         正在编译...
+         CCNodeLoaderLibrary.cpp
+         CCParticleSystemQuadLoader.cpp
+         CCScale9SpriteLoader.cpp
+         CCScrollViewLoader.cpp
+         CCSpriteLoader.cpp
+         CCControl.cpp
+         CCControlButton.cpp
+         CCControlColourPicker.cpp
+         CCControlHuePicker.cpp
+         CCControlPotentiometer.cpp
+         CCControlSaturationBrightnessPicker.cpp
+         CCControlSlider.cpp
+         CCControlStepper.cpp
+         CCControlSwitch.cpp
+         CCControlUtils.cpp
+         CCInvocation.cpp
+         CCScale9Sprite.cpp
+         CCEditBox.cpp
+         CCEditBoxImplWin.cpp
+         CCScrollView.cpp
+         正在编译...
+         CCSorting.cpp
+         CCTableView.cpp
+         CCTableViewCell.cpp
+         LocalStorage.cpp
+         HttpClient.cpp
+         CCPhysicsDebugNode.cpp
+         CCPhysicsSprite.cpp
+         Win32InputBox.cpp
+       Lib:
+         C:\Program Files (x86)\VC\bin\Lib.exe /OUT:"E:\0821出版本\trunk\Release.win32\libExtensions.lib" /NOLOGO /LTCG Release.win32\AssetsManager.obj
+         Release.win32\CCBAnimationManager.obj
+         Release.win32\CCBFileLoader.obj
+         Release.win32\CCBKeyframe.obj
+         Release.win32\CCBReader.obj
+         Release.win32\CCBSequence.obj
+         Release.win32\CCBSequenceProperty.obj
+         Release.win32\CCBValue.obj
+         Release.win32\CCControlButtonLoader.obj
+         Release.win32\CCControlLoader.obj
+         Release.win32\CCData.obj
+         Release.win32\CCLabelBMFontLoader.obj
+         Release.win32\CCLabelTTFLoader.obj
+         Release.win32\CCLayerColorLoader.obj
+         Release.win32\CCLayerGradientLoader.obj
+         Release.win32\CCLayerLoader.obj
+         Release.win32\CCMenuItemImageLoader.obj
+         Release.win32\CCMenuItemLoader.obj
+         Release.win32\CCNode+CCBRelativePositioning.obj
+         Release.win32\CCNodeLoader.obj
+         Release.win32\CCNodeLoaderLibrary.obj
+         Release.win32\CCParticleSystemQuadLoader.obj
+         Release.win32\CCScale9SpriteLoader.obj
+         Release.win32\CCScrollViewLoader.obj
+         Release.win32\CCSpriteLoader.obj
+         Release.win32\CCControl.obj
+         Release.win32\CCControlButton.obj
+         Release.win32\CCControlColourPicker.obj
+         Release.win32\CCControlHuePicker.obj
+         Release.win32\CCControlPotentiometer.obj
+         Release.win32\CCControlSaturationBrightnessPicker.obj
+         Release.win32\CCControlSlider.obj
+         Release.win32\CCControlStepper.obj
+         Release.win32\CCControlSwitch.obj
+         Release.win32\CCControlUtils.obj
+         Release.win32\CCInvocation.obj
+         Release.win32\CCScale9Sprite.obj
+         Release.win32\CCEditBox.obj
+         Release.win32\CCEditBoxImplWin.obj
+         Release.win32\CCScrollView.obj
+         Release.win32\CCSorting.obj
+         Release.win32\CCTableView.obj
+         Release.win32\CCTableViewCell.obj
+         Release.win32\LocalStorage.obj
+         Release.win32\HttpClient.obj
+         Release.win32\CCPhysicsDebugNode.obj
+         Release.win32\CCPhysicsSprite.obj
+         Release.win32\Win32InputBox.obj
+         libExtensions.vcxproj -> E:\0821出版本\trunk\Release.win32\libExtensions.lib
+       FinalizeBuildStatus:
+         正在删除文件“Release.win32\libExtensions.unsuccessfulbuild”。
+         正在对“Release.win32\libExtensions.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\0821出版本\trunk\extensions\proj.win32\libExtensions.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:15.08

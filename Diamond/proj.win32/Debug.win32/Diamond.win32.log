@@ -1,0 +1,229 @@
+﻿生成启动时间为 2013/9/13 17:23:09。
+     1>项目“E:\0821出版本\trunk\Diamond\proj.win32\Diamond.win32.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\新建文件夹\VC\bin\CL.exe /c /I. /I..\Classes /I"E:\0821出版本\trunk\cocos2dx" /I"E:\0821出版本\trunk\cocos2dx\include" /I"E:\0821出版本\trunk\cocos2dx\kazmath\include" /I"E:\0821出版本\trunk\cocos2dx\platform\win32" /I"E:\0821出版本\trunk\cocos2dx\platform\third_party\win32" /I"E:\0821出版本\trunk\cocos2dx\platform\third_party\win32\OGLES" /I"E:\0821出版本\trunk\extensions" /I"E:\0821出版本\trunk\CocosDenshion\include" /I..\Classes\ui\layer /I..\Classes\ui\sprite /I..\Classes\ui\scene /I..\Classes\base /I..\Classes\datapool /I..\Classes\platform /I..\Classes\tinyxml /I..\Classes\ui\action /I..\Classes\sound /I"C:\Program Files\Java\jdk1.7.0_25\include" /I"C:\Program Files\Java\jdk1.7.0_25\include\win32" /I"E:\0821出版本\trunk\cocos2dx\keypad_dispatcher" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\base\delta_time.cpp ..\Classes\base\game_win_event.cpp ..\Classes\base\xml_util.cpp ..\Classes\datapool\ConfigConst.cpp ..\Classes\datapool\ConfigCopy.cpp ..\Classes\datapool\ConfigCopyProp.cpp ..\Classes\datapool\ConfigCopySkill.cpp ..\Classes\datapool\ConfigCopyWave.cpp ..\Classes\datapool\ConfigMap.cpp ..\Classes\datapool\ConfigMonster.cpp ..\Classes\datapool\ConfigMonsterSkill.cpp ..\Classes\datapool\ConfigProp.cpp ..\Classes\datapool\ConfigSpriteSkill.cpp ..\Classes\datapool\ConfigSpriteSkillStatus.cpp ..\Classes\datapool\ConfigStatusType.cpp ..\Classes\datapool\ConfigStore.cpp ..\Classes\datapool\ConfigText.cpp ..\Classes\datapool\ConfigWaveMonster.cpp ..\Classes\datapool\CopyData.cpp ..\Classes\datapool\DataPool.cpp ..\Classes\datapool\EffectData.cpp ..\Classes\datapool\LoadHelper.cpp ..\Classes\datapool\MapData.cpp ..\Classes\datapool\MapDataManager.cpp ..\Classes\datapool\MonsterData.cpp ..\Classes\datapool\MonsterDataManager.cpp ..\Classes\datapool\PropData.cpp ..\Classes\datapool\SceneStatusData.cpp ..\Classes\datapool\SpriteSkillData.cpp ..\Classes\datapool\SpriteSkillManager.cpp ..\Classes\datapool\StatusData.cpp ..\Classes\datapool\StoreData.cpp ..\Classes\datapool\UserData.cpp ..\Classes\platform\BasePlatformCenter.cpp ..\Classes\platform\GamePlatform.cpp ..\Classes\platform\OfficialPlatformCenter.cpp ..\Classes\sound\SoundManager.cpp ..\Classes\tinyxml\tinystr.cpp ..\Classes\tinyxml\tinyxml.cpp ..\Classes\tinyxml\tinyxmlerror.cpp ..\Classes\tinyxml\tinyxmlparser.cpp ..\Classes\ui\action\ActionNumTo.cpp ..\Classes\ui\layer\BaseLayer.cpp ..\Classes\ui\layer\BeginnersGuideLayer.cpp ..\Classes\ui\layer\BoardLayer.cpp ..\Classes\ui\layer\BuyPropItemLayer.cpp ..\Classes\ui\layer\BuyPropLayer.cpp ..\Classes\ui\layer\CopyLayer.cpp ..\Classes\ui\layer\DailyRewordLayer.cpp ..\Classes\ui\layer\EffectLayer.cpp ..\Classes\ui\layer\EnergyLayer.cpp ..\Classes\ui\layer\FreeGoldLayer.cpp ..\Classes\ui\layer\LoseLayer.cpp ..\Classes\ui\layer\MapLayer.cpp ..\Classes\ui\layer\MenuLayer.cpp ..\Classes\ui\layer\MonsterLayer.cpp ..\Classes\ui\layer\MusicLayer.cpp ..\Classes\ui\layer\PropLayer.cpp ..\Classes\ui\layer\ShieldLayer.cpp ..\Classes\ui\layer\SkillLayer.cpp ..\Classes\ui\layer\StoreLayer.cpp ..\Classes\ui\layer\TimeLayer.cpp ..\Classes\ui\layer\TopLayer.cpp ..\Classes\ui\layer\WallHpLayer.cpp ..\Classes\ui\layer\WallLayer.cpp ..\Classes\ui\layer\WinLayer.cpp ..\Classes\ui\layer\androidDelegate.cpp ..\Classes\ui\scene\FightScene.cpp ..\Classes\ui\scene\LoginScene.cpp ..\Classes\ui\scene\MainScene.cpp ..\Classes\ui\sprite\Button.cpp ..\Classes\ui\sprite\CCGridView.cpp ..\Classes\ui\sprite\CCTableViewEx.cpp ..\Classes\ui\sprite\CopyGridViewCell.cpp ..\Classes\ui\sprite\CopyStar.cpp ..\Classes\ui\sprite\GainStar.cpp ..\Classes\ui\sprite\GemCellEx.cpp ..\Classes\ui\sprite\HpLabel.cpp ..\Classes\ui\sprite\MapTableViewCell.cpp ..\Classes\ui\sprite\MonsterNode.cpp ..\Classes\ui\sprite\PropButton.cpp ..\Classes\ui\sprite\SkillButton.cpp ..\Classes\ui\sprite\StoreChildSprite.cpp ..\Classes\ui\sprite\StoreTableViewCell.cpp ..\Classes\ui\sprite\WaveLabel.cpp main.cpp
+         main.cpp
+         WaveLabel.cpp
+         StoreTableViewCell.cpp
+         StoreChildSprite.cpp
+         SkillButton.cpp
+         PropButton.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\sprite\propbutton.cpp(47): warning C4305: “参数”: 从“double”到“float”截断
+         MonsterNode.cpp
+         MapTableViewCell.cpp
+         HpLabel.cpp
+         GemCellEx.cpp
+         GainStar.cpp
+         CopyStar.cpp
+         CopyGridViewCell.cpp
+         CCTableViewEx.cpp
+         CCGridView.cpp
+         Button.cpp
+         MainScene.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\scene\fightscene.h(104): warning C4373: “FightScene::onUserGoldChanged”: 虚函数重写“MonsterLayerDelegate::onUserGoldChanged”，当参数只在 const/volatile 限定符上有差异时，早期版本的编译器未进行重写
+                 e:\0821出版本\trunk\diamond\classes\ui\layer\monsterlayer.h(22) : 参见“MonsterLayerDelegate::onUserGoldChanged”的声明
+     1>e:\0821出版本\trunk\diamond\classes\ui\scene\mainscene.cpp(186): warning C4800: “MainScene *const ”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\0821出版本\trunk\diamond\classes\ui\scene\mainscene.cpp(424): warning C4800: “MainScene *const ”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\0821出版本\trunk\diamond\classes\ui\scene\mainscene.cpp(900): warning C4018: “<”: 有符号/无符号不匹配
+         LoginScene.cpp
+         FightScene.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\scene\fightscene.h(104): warning C4373: “FightScene::onUserGoldChanged”: 虚函数重写“MonsterLayerDelegate::onUserGoldChanged”，当参数只在 const/volatile 限定符上有差异时，早期版本的编译器未进行重写
+                 e:\0821出版本\trunk\diamond\classes\ui\layer\monsterlayer.h(22) : 参见“MonsterLayerDelegate::onUserGoldChanged”的声明
+     1>e:\0821出版本\trunk\diamond\classes\ui\scene\fightscene.cpp(1481): warning C4018: “<=”: 有符号/无符号不匹配
+         androidDelegate.cpp
+         正在生成代码...
+     1>e:\0821出版本\trunk\diamond\classes\ui\scene\fightscene.cpp(1333): warning C4715: “FightScene::onIsUserRemovegemNow”: 不是所有的控件路径都返回值
+         正在编译...
+         WinLayer.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\winlayer.cpp(90): warning C4305: “参数”: 从“double”到“float”截断
+         WallLayer.cpp
+         WallHpLayer.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\wallhplayer.cpp(110): warning C4018: “<”: 有符号/无符号不匹配
+         TopLayer.cpp
+         TimeLayer.cpp
+         StoreLayer.cpp
+         SkillLayer.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\skilllayer.cpp(122): warning C4018: “<”: 有符号/无符号不匹配
+         ShieldLayer.cpp
+         PropLayer.cpp
+         MusicLayer.cpp
+         MonsterLayer.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\monsterlayer.cpp(592): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\monsterlayer.cpp(800): warning C4305: “参数”: 从“double”到“float”截断
+         MenuLayer.cpp
+         MapLayer.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\maplayer.cpp(78): warning C4018: “<=”: 有符号/无符号不匹配
+         LoseLayer.cpp
+         FreeGoldLayer.cpp
+         EnergyLayer.cpp
+         EffectLayer.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\effectlayer.cpp(60): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\effectlayer.cpp(120): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\effectlayer.cpp(124): warning C4305: “参数”: 从“double”到“float”截断
+         DailyRewordLayer.cpp
+         CopyLayer.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\copylayer.cpp(191): warning C4018: “>=”: 有符号/无符号不匹配
+         BuyPropLayer.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\buyproplayer.cpp(99): warning C4018: “>=”: 有符号/无符号不匹配
+         正在生成代码...
+         正在编译...
+         BuyPropItemLayer.cpp
+         BoardLayer.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\boardlayer.cpp(1183): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\boardlayer.cpp(2762): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\boardlayer.cpp(2763): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\boardlayer.cpp(2776): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\boardlayer.cpp(2777): warning C4018: “<”: 有符号/无符号不匹配
+         BeginnersGuideLayer.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\scene\fightscene.h(104): warning C4373: “FightScene::onUserGoldChanged”: 虚函数重写“MonsterLayerDelegate::onUserGoldChanged”，当参数只在 const/volatile 限定符上有差异时，早期版本的编译器未进行重写
+                 e:\0821出版本\trunk\diamond\classes\ui\layer\monsterlayer.h(22) : 参见“MonsterLayerDelegate::onUserGoldChanged”的声明
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\beginnersguidelayer.cpp(203): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\0821出版本\trunk\diamond\classes\ui\layer\beginnersguidelayer.cpp(387): warning C4018: “<”: 有符号/无符号不匹配
+         BaseLayer.cpp
+         ActionNumTo.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\action\actionnumto.cpp(86): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\0821出版本\trunk\diamond\classes\ui\action\actionnumto.cpp(91): warning C4018: “<”: 有符号/无符号不匹配
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         SoundManager.cpp
+         OfficialPlatformCenter.cpp
+     1>e:\0821出版本\trunk\diamond\classes\ui\scene\fightscene.h(104): warning C4373: “FightScene::onUserGoldChanged”: 虚函数重写“MonsterLayerDelegate::onUserGoldChanged”，当参数只在 const/volatile 限定符上有差异时，早期版本的编译器未进行重写
+                 e:\0821出版本\trunk\diamond\classes\ui\layer\monsterlayer.h(22) : 参见“MonsterLayerDelegate::onUserGoldChanged”的声明
+         GamePlatform.cpp
+         BasePlatformCenter.cpp
+         UserData.cpp
+         StoreData.cpp
+         StatusData.cpp
+         SpriteSkillManager.cpp
+         SpriteSkillData.cpp
+         SceneStatusData.cpp
+         PropData.cpp
+         正在生成代码...
+         正在编译...
+         MonsterDataManager.cpp
+         MonsterData.cpp
+         MapDataManager.cpp
+         MapData.cpp
+         LoadHelper.cpp
+         EffectData.cpp
+         DataPool.cpp
+         CopyData.cpp
+         ConfigWaveMonster.cpp
+         ConfigText.cpp
+         ConfigStore.cpp
+         ConfigStatusType.cpp
+         ConfigSpriteSkillStatus.cpp
+         ConfigSpriteSkill.cpp
+         ConfigProp.cpp
+         ConfigMonsterSkill.cpp
+         ConfigMonster.cpp
+         ConfigMap.cpp
+         ConfigCopyWave.cpp
+         ConfigCopySkill.cpp
+         正在生成代码...
+         正在编译...
+         ConfigCopyProp.cpp
+         ConfigCopy.cpp
+         ConfigConst.cpp
+         xml_util.cpp
+         game_win_event.cpp
+         delta_time.cpp
+         AppDelegate.cpp
+         正在生成代码...
+       Link:
+         D:\新建文件夹\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\0821出版本\trunk\Debug.win32\Diamond.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\0821出版本\trunk\Debug.win32\\" libcocos2d.lib opengl32.lib glew32.lib libCocosDenshion.lib libExtensions.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\新建文件夹\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\0821出版本\trunk\Debug.win32\Diamond.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\0821出版本\trunk\Debug.win32\Diamond.win32.lib" /MACHINE:X86 Debug.win32\AppDelegate.obj
+         Debug.win32\delta_time.obj
+         Debug.win32\game_win_event.obj
+         Debug.win32\xml_util.obj
+         Debug.win32\ConfigConst.obj
+         Debug.win32\ConfigCopy.obj
+         Debug.win32\ConfigCopyProp.obj
+         Debug.win32\ConfigCopySkill.obj
+         Debug.win32\ConfigCopyWave.obj
+         Debug.win32\ConfigMap.obj
+         Debug.win32\ConfigMonster.obj
+         Debug.win32\ConfigMonsterSkill.obj
+         Debug.win32\ConfigProp.obj
+         Debug.win32\ConfigSpriteSkill.obj
+         Debug.win32\ConfigSpriteSkillStatus.obj
+         Debug.win32\ConfigStatusType.obj
+         Debug.win32\ConfigStore.obj
+         Debug.win32\ConfigText.obj
+         Debug.win32\ConfigWaveMonster.obj
+         Debug.win32\CopyData.obj
+         Debug.win32\DataPool.obj
+         Debug.win32\EffectData.obj
+         Debug.win32\LoadHelper.obj
+         Debug.win32\MapData.obj
+         Debug.win32\MapDataManager.obj
+         Debug.win32\MonsterDataManager.obj
+         Debug.win32\MonsterData.obj
+         Debug.win32\PropData.obj
+         Debug.win32\SceneStatusData.obj
+         Debug.win32\SpriteSkillData.obj
+         Debug.win32\SpriteSkillManager.obj
+         Debug.win32\StatusData.obj
+         Debug.win32\StoreData.obj
+         Debug.win32\UserData.obj
+         Debug.win32\BasePlatformCenter.obj
+         Debug.win32\GamePlatform.obj
+         Debug.win32\OfficialPlatformCenter.obj
+         Debug.win32\SoundManager.obj
+         Debug.win32\tinystr.obj
+         Debug.win32\tinyxml.obj
+         Debug.win32\tinyxmlerror.obj
+         Debug.win32\tinyxmlparser.obj
+         Debug.win32\ActionNumTo.obj
+         Debug.win32\androidDelegate.obj
+         Debug.win32\BaseLayer.obj
+         Debug.win32\BeginnersGuideLayer.obj
+         Debug.win32\BoardLayer.obj
+         Debug.win32\BuyPropItemLayer.obj
+         Debug.win32\BuyPropLayer.obj
+         Debug.win32\CopyLayer.obj
+         Debug.win32\DailyRewordLayer.obj
+         Debug.win32\EffectLayer.obj
+         Debug.win32\EnergyLayer.obj
+         Debug.win32\FreeGoldLayer.obj
+         Debug.win32\LoseLayer.obj
+         Debug.win32\MapLayer.obj
+         Debug.win32\MenuLayer.obj
+         Debug.win32\MonsterLayer.obj
+         Debug.win32\MusicLayer.obj
+         Debug.win32\PropLayer.obj
+         Debug.win32\ShieldLayer.obj
+         Debug.win32\SkillLayer.obj
+         Debug.win32\StoreLayer.obj
+         Debug.win32\TimeLayer.obj
+         Debug.win32\TopLayer.obj
+         Debug.win32\WallHpLayer.obj
+         Debug.win32\WallLayer.obj
+         Debug.win32\WinLayer.obj
+         Debug.win32\FightScene.obj
+         Debug.win32\LoginScene.obj
+         Debug.win32\MainScene.obj
+         Debug.win32\Button.obj
+         Debug.win32\CCGridView.obj
+         Debug.win32\CCTableViewEx.obj
+         Debug.win32\CopyGridViewCell.obj
+         Debug.win32\CopyStar.obj
+         Debug.win32\GainStar.obj
+         Debug.win32\GemCellEx.obj
+         Debug.win32\PropButton.obj
+         Debug.win32\HpLabel.obj
+         Debug.win32\MapTableViewCell.obj
+         Debug.win32\MonsterNode.obj
+         Debug.win32\SkillButton.obj
+         Debug.win32\StoreChildSprite.obj
+         Debug.win32\StoreTableViewCell.obj
+         Debug.win32\WaveLabel.obj
+         Debug.win32\main.obj
+         LINK : 没有找到 E:\0821出版本\trunk\Debug.win32\Diamond.win32.exe 或上一个增量链接没有生成它；正在执行完全链接
+         Diamond.win32.vcxproj -> E:\0821出版本\trunk\Debug.win32\Diamond.win32.exe
+     1>已完成生成项目“E:\0821出版本\trunk\Diamond\proj.win32\Diamond.win32.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:03:20.99
